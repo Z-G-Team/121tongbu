@@ -1,8 +1,8 @@
 //主题颜色
-$theme-color: #00a7eb;
+$theme-color: #ec6941;
 
 // 主色
-$color-primary: #00a7eb;
+$color-primary: #ec6941;
 
 $color-blue: $theme-color;
 $color-danger: #e53935;
@@ -11,13 +11,13 @@ $color-success: #83c44e;
 
 $blue: #00a7eb;
 $red: #e53935;
-$orange: #ffac13;
+$orange: #ec6941;
 $orange1: #ff6700;
 $green: #83c44e;
 $bluePurple: #8461f9;
 $purpleRed: #fe016e;
 
-$shadowColor:rgba(0,0,0,.2);
+$shadowColor: rgba(0, 0, 0, 0.2);
 //active 色调
 $color-primary-active: darken($color-primary, 10%);
 $color-danger-active: darken($color-danger, 10%);

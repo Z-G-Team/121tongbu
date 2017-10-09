@@ -245,7 +245,7 @@
 }
 
 body {
-  font: 16px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica,
+  font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica,
     "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
   color: $color-text;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -253,10 +253,16 @@ body {
 
 .wrapper {
   position: relative;
-  width: 1180px;
+  width: 1170px;
   margin: 0 auto;
 }
-
+.container {
+  position: relative;
+  width: 100%;
+  min-width: 1170px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .boxs {
   box-shadow: 0 1px 5px 1px #ccc;
   background-color: #fff;

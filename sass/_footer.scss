@@ -1,70 +1,131 @@
-.footer {
-  background: #333;
-  width: 100%;
-  color: $color-white;
+.reservation {
+  background: #939393;
+}
+.reservation .reservation_title {
+  float: left;
+  width: 85px;
+  color: #fff;
+  line-height: 66px;
+  font-size: 18px;
+}
+.reservation .r_main {
+  float: left;
+}
+.reservation .r_main > li {
+  float: left;
+  height: 42px;
+  margin: 14px 10px 14px 0;
+  background: #fff;
+}
+.reservation .r_main > li .text {
+  display: block;
+  width: 172px;
+  height: 42px;
+  border: none;
+  text-indent: 10px;
 }
 
-.footer-nav {
-  text-align: center;
-  height: 64px;
-  padding: 22px 0;
-  border-bottom: 2px solid #777;
-  .footer-nav-item {
-    display: inline-block;
-    height: 20px;
-    line-height: 20px;
-    border-left: 1px solid $color-white;
-    color: $color-white;
-    padding: 0 30px;
-    overflow: hidden;
-    &:first-child {
-      border-left: 0;
-    }
-    &:hover {
-      color: $theme-color;
-    }
-  }
+.reservation .reservation_btn {
+  float: right;
+  width: 175px;
+  height: 42px;
+  padding: 15px 0;
 }
-.footer-content {
-  padding-top: 25px;
-  line-height: 26px;
-  .footer-content-l {
-    float: left;
-    width: 237px;
-  }
-  .footer-content-m {
-    float: left;
-    width: 400px;
-    margin-left: 15px;
-    font-size: $font-size-14;
-  }
-  .footer-content-r {
-    float: right;
-    text-align: right;
-    .footer-tel {
-      p {
-        line-height: 27px;
-      }
-      .phone {
-        font-size: 38px;
-        line-height: 38px;
-      }
-      i {
-        display: inline-block;
-        @include square(20px);
-        background-color: $color-white;
-        margin-top: 7px;
-      }
-    }
-    .footer-qrcode {
-    }
-  }
+.reservation .reservation_btn button {
+  display: block;
+  width: 175px;
+  height: 42px;
+  font-size: 16px;
+  line-height: 42px;
+  border: none;
+  color: #fff;
+  background: #fe6a00;
+  overflow: hidden;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -webkit-transition: color 0.3s;
 }
-.copyright {
-  @include height(54px);
+.reservation .reservation_btn button:hover {
+  background: #ff9900;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 60px 0 40px 0;
+  background-color: #333;
+}
+.footer .foot_logo {
+  float: left;
+  width: 230px;
+}
+.footer .foot_logo p {
+  font-size: 26px;
+  color: $color-white;
+  line-height: 1;
+}
+.footer .foot_nav {
+  float: left;
+  margin-left: 90px;
+  border-left: 1px solid #999;
+}
+.footer .foot_nav dl {
+  float: left;
+  width: 130px;
+  height: 130px;
   text-align: center;
-  font-size: $font-size-14;
-  a {
-    color: $color-white;
-  }
+  border-right: 1px solid #999;
+}
+.footer .foot_nav dt {
+  height: 40px;
+  line-height: 1;
+}
+.footer .foot_nav dt a {
+  font-size: 16px;
+  color: #999;
+}
+.footer .foot_nav dd {
+  height: 30px;
+  line-height: 30px;
+}
+.footer .foot_nav dd a {
+  font-size: 14px;
+  color: #999;
+}
+.footer .foot_nav dd a:hover {
+  color: #fe6a00;
+}
+
+.footer .foot_wx {
+  float: right;
+  text-align: right;
+}
+.footer .weixin {
+  float: right;
+  margin-left: 15px;
+}
+.footer .weixin img {
+  width: 100px;
+  height: 100px;
+}
+.footer .right h1 {
+  text-align: right;
+  font-size: 38px;
+  color: #999;
+}
+.footer .right p {
+  color: #999;
+  font-size: 16px;
+}
+.footer .right strong {
+  color: #999;
+}
+
+.footer .siteinfo {
+  padding-top: 30px;
+  font-size: 14px;
+  text-align: center;
+  color: #999;
 }
