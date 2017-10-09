@@ -1,0 +1,51 @@
+//主题颜色
+$theme-color: #00a7eb;
+
+// 主色
+$color-primary: #00a7eb;
+
+$color-blue: $theme-color;
+$color-danger: #e53935;
+$color-warning: #ffac13;
+$color-success: #83c44e;
+
+$blue: #00a7eb;
+$red: #e53935;
+$orange: #ffac13;
+$orange1: #ff6700;
+$green: #83c44e;
+$bluePurple: #8461f9;
+$purpleRed: #fe016e;
+
+$shadowColor:rgba(0,0,0,.2);
+//active 色调
+$color-primary-active: darken($color-primary, 10%);
+$color-danger-active: darken($color-danger, 10%);
+$color-warning-active: darken($color-warning, 10%);
+$color-success-active: darken($color-success, 10%);
+
+$color-split: #e6e6e6; //分割线的颜色
+$color-bg: #f1f1f1;
+$color-white: #fff;
+
+$color-text: #333; //文案色
+$color-text-secondary: #666; //次级文案
+$color-text-gray: #999; //灰色文案
+$color-text-gray-light: #ccc; //更灰色文案
+
+//链接色
+$color-link: $color-primary; //链接色有可能不同于主色
+$color-link-active: $color-primary-active; //链接色有可能不同于主色
+
+//按钮颜色
+$color-btn-primary: $color-primary;
+
+// Transitions
+// --------------------------------------------------
+$timing-fuction: cubic-bezier(0.1, 0.5, 0.1, 1); // Inspired by $c2prods
+
+//font-size
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-18: 18px;
+$font-size-20: 20px;

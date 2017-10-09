@@ -1,0 +1,274 @@
+.dis {
+  display: block;
+}
+
+.disn {
+  display: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+//for循环
+@for $i from 1 through 10 {
+  .w#{$i*10} {
+    width: $i*10%;
+  }
+}
+
+.lh2 {
+  line-height: 2;
+}
+
+.w15 {
+  width: 15%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w35 {
+  width: 35%;
+}
+
+.w45 {
+  width: 45%;
+}
+
+.w55 {
+  width: 55%;
+}
+
+.w65 {
+  width: 65%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.w85 {
+  width: 85%;
+}
+
+.w95 {
+  width: 95%;
+}
+
+/* 单行文字溢出虚点显示*/
+
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/*  多行溢出隐藏 */
+
+.l-ell {
+  display: -webkit-box;
+  display: box;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  /* 几行隐藏 */
+  /* -ms-line-clamp: 2;
+    -moz-line-clamp: 2;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;  */
+}
+
+.l-ell-3 {
+  -ms-line-clamp: 3;
+  -moz-line-clamp: 3;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+
+@for $i from 6 through 12 {
+  .fs#{$i * 2} {
+    font-size: $i * 2px;
+  }
+}
+
+@for $i from 0 through 10 {
+  .mr#{$i * 5} {
+    margin-right: $i * 5px !important;
+  }
+  .ml#{$i * 5} {
+    margin-left: $i * 5px !important;
+  }
+  .mt#{$i * 5} {
+    margin-top: $i * 5px !important;
+  }
+  .mb#{$i * 5} {
+    margin-bottom: $i * 5px !important;
+  }
+  .mg#{$i * 5} {
+    margin: $i * 5px !important;
+  }
+  .pr#{$i * 5} {
+    padding-right: $i * 5px !important;
+  }
+  .pl#{$i * 5} {
+    padding-left: $i * 5px !important;
+  }
+  .pt#{$i * 5} {
+    padding-top: $i * 5px !important;
+  }
+  .pb#{$i * 5} {
+    padding-bottom: $i * 5px !important;
+  }
+  .pd#{$i * 5} {
+    padding: $i * 5px !important;
+  }
+  .plr#{$i*5} {
+    padding-left: $i * 5px;
+    padding-right: $i * 5px;
+  }
+  .ptb#{$i*5} {
+    padding-top: $i * 5px;
+    padding-bottom: $i * 5px;
+  }
+}
+
+@for $i from 1 through 30 {
+  .w#{$i * 10} {
+    width: $i * 10px;
+  }
+  @if $i<21 {
+    .w#{$i * 5}p {
+      width: $i * 5%;
+    }
+  }
+}
+
+.clearfix:after,
+.clearfix:before,
+.cf:after,
+.cf:before {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.tl {
+  text-align: left !important;
+}
+
+.tr {
+  text-align: right !important;
+}
+
+.tc {
+  text-align: center !important;
+}
+
+.vt {
+  vertical-align: top;
+}
+
+.vm {
+  vertical-align: middle;
+}
+
+.vb {
+  vertical-align: bottom;
+}
+
+.posr {
+  position: relative !important;
+}
+
+.posa {
+  position: absolute !important;
+}
+
+.posf {
+  position: fixed !important;
+}
+
+//block
+.block {
+  display: block !important;
+}
+
+.inline-block {
+  display: inline-block !important;
+}
+
+//none
+.hide,
+.none {
+  display: none !important;
+}
+
+//flexbox
+.box-flex,
+.flex {
+  @include flexbox();
+}
+
+.flex-one {
+  @include flex(1);
+}
+
+.flex-two {
+  @include flex(2);
+}
+
+.jc-flex-start {
+  @include justify-content(flex-start);
+}
+
+.jc-flex-end {
+  @include justify-content(flex-end);
+}
+
+.jc-flex-center {
+  @include justify-content(center);
+}
+
+.jc-flex-sb {
+  @include justify-content(space-between);
+}
+
+body {
+  font: 16px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica,
+    "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
+  color: $color-text;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.wrapper {
+  position: relative;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.boxs {
+  box-shadow: 0 1px 5px 1px #ccc;
+  background-color: #fff;
+  margin: 20px auto;
+}
+
+.section {
+}
+
+.badge {
+  @include border-radius(5px);
+  background-color: $color-primary;
+  color: #fff;
+  padding: 2px 3px;
+}
