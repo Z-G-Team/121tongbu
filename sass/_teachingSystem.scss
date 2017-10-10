@@ -1,0 +1,28 @@
+.teaching-banner {
+  display: block;
+  background: url("../images/teach-banner.png") no-repeat center center #f2f2f2;
+  height: 630px;
+}
+.teaching-system {
+  .system-title {
+    padding-bottom: 50px;
+  }
+  &-block {
+    padding: 70px 0 50px;
+  }
+}
+.teaching-system-01 {
+  .system-title {
+    h1 {
+      display: block;
+      text-indent: -999em;
+      background: url("../images/teaching-title-01.jpg") no-repeat center top;
+      height: 70px;
+    }
+    p {
+      font-size: 28px;
+      padding-top: 20px;
+      line-height: 1;
+    }
+  }
+}

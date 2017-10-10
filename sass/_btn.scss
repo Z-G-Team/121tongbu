@@ -2,8 +2,16 @@
   display: inline-block;
   font-size: $font-size-16;
   border-radius: 45px;
+  cursor: pointer;
 }
-
+.btn-normal {
+  width: 240px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
 .btn-mini {
   font-size: $font-size-14;
   height: 24px;
@@ -13,6 +21,10 @@
 .btn-primary {
   background-color: $color-primary;
   color: $color-white;
+  &:hover {
+    background-color: lighten($color-primary, 10%);
+    color: $color-white;
+  }
 }
 .btn-plain {
   border: 1px solid $color-white;

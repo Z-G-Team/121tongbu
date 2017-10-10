@@ -38,22 +38,4 @@ $(function() {
     effect: "fadeIn",
     failurelimit: 54
   });
-
-  $("#distpicker").distpicker({
-    autoSelect: false
-  });
-  $("#distpicker1").distpicker({
-    autoSelect: false
-  });
-
-  setTimeout(function() {
-    layer.open({
-      type: 1,
-      title: false,
-      skin: "layui-layer-service",
-      closeBtn: false,
-      area: ["500px", "380px"], //宽高
-      content: $(".service-big-box")
-    });
-  }, 1000);
 });
