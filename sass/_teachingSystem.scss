@@ -4,11 +4,21 @@
   height: 630px;
 }
 .teaching-system {
-  .system-title {
-    padding-bottom: 50px;
-  }
   &-block {
     padding: 70px 0 50px;
+  }
+  .system-title {
+    p {
+      font-size: 24px;
+      line-height: 1;
+    }
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    padding: 21px 29px;
+    border-radius: 50%;
   }
 }
 .teaching-system-01 {
@@ -24,5 +34,130 @@
       padding-top: 20px;
       line-height: 1;
     }
+  }
+  .btn-booking {
+  }
+}
+.teaching-system-02 {
+  position: relative;
+  background: url("../images/teach-system-02.png") no-repeat center top
+    $theme-color;
+  height: 934px;
+  .system-title {
+    color: $color-white;
+    h1 {
+      font-size: 62px;
+      line-height: 62px;
+    }
+  }
+  .swiper-button-next2,
+  .swiper-button-prev2 {
+    background-color: $color-white;
+  }
+}
+.teaching-system-03 {
+  padding-bottom: 0;
+  position: relative;
+  .teaching-system-content {
+    position: relative;
+    background: url("../images/teach-swiper2-mac.png") no-repeat center top;
+    height: 758px;
+    z-index: 1;
+  }
+  .swiper-container {
+    width: 811px;
+    height: 504px;
+    padding: 42px 0 0 0;
+  }
+  .swiper-slide {
+    height: 462px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-button-next3,
+  .swiper-button-prev3 {
+    background-color: $color-primary;
+    top: 260px;
+  }
+  &-b {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: #ffba26;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+}
+.teaching-system-04 {
+  background-color: #ffba26;
+  padding-bottom: 70px;
+  .system-title {
+    color: #68390c;
+  }
+  .teaching-system-content {
+    position: relative;
+    background: url("../images/teach-swiper3-pad.png") no-repeat center top;
+    height: 685px;
+  }
+  .swiper-container {
+    width: 744px;
+    padding: 65px 0 0 0;
+  }
+  .swiper-slide {
+    height: 556px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-button-next4,
+  .swiper-button-prev4 {
+    background-color: $color-white;
+  }
+}
+.teaching-system-05 {
+  background-color: $color-white;
+  .teaching-system-content {
+    position: relative;
+    height: 501px;
+  }
+  .swiper-container {
+    width: 898px;
+    height: 501px;
+  }
+  .swiper-slide {
+  }
+  .swiper-button-next5,
+  .swiper-button-prev5 {
+    background-color: $color-primary;
   }
 }
