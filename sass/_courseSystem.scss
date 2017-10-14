@@ -1,0 +1,252 @@
+.coursesys{
+    .block{
+        padding-top:40px;
+        padding-bottom:50px;
+    }
+    .fc-white{
+        color: #fff;
+    }
+    .fc-yellow{
+        color: #ffba00;
+    }
+
+    &-banner{
+        background: url('../images/coursesys/course-banner.jpg') no-repeat center;
+        background-size:cover;
+        height: 630px;
+    }
+    &-block1{
+        background: url('../images/coursesys/course-block2-bg.jpg') no-repeat center;
+        background-size:cover;
+    }
+    &-block3{
+        background: #ffba00;
+    }
+    &-block4{
+        background: url('../images/coursesys/course-block5-bg.jpg') no-repeat center bottom;
+        background-size:cover;
+    }
+    &-block5{
+        background: #ffba00;
+    }
+    
+    .course-block{
+        .course-tit{
+            font-size:62px;
+            line-height: 93px;
+            .short{
+                font-size:34px;
+                vertical-align: middle;
+            }
+        }
+    }
+    .block1-content{
+        font-size:16px;
+        .main-tit{font-size:32px;}
+        .short-tit{
+            font-size:20px;
+            line-height: 70px;
+            margin-bottom: 30px;
+            .decoration{
+                display: inline-block;
+            }
+            
+        }
+        .course-li{
+            font-size:16px;
+            line-height: 34px;
+            .num{
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                text-align: center;
+                border-radius: 50%;
+                line-height: 24px;
+            }
+        }
+        .left{
+            width: 50%;
+            color: #201a1c;
+            padding-right:20px;
+            .short-tit{
+                .decoration{
+                    border-bottom:1px solid #201a1c;
+                }
+            }
+            .num{
+                background: #fff;
+                margin-left:10px;
+            }
+        }
+        .right{
+            width: 50%;
+            color: #ffba00;
+            padding-left:20px;
+            .num{
+                background: #ffba00;
+                color: #fff;
+                margin-right:10px;
+            }
+            .short-tit{
+                .decoration{
+                    border-bottom:1px solid #ffba00;
+                }
+            }
+        }
+    }
+    .block2-content{
+        .block2-img{
+            width: 661px;
+            height: 520px;
+            background: url('../images/coursesys/course-block3-content.png') no-repeat center;
+        }
+        .block2-dl{
+            width: 360px;
+        .item{
+            color: #fff;
+            font-size:16px;
+            padding:15px 0;
+            margin-bottom: 20px;
+            &-green{
+                background:#76bd3e;
+            }
+            &-red{
+                background:#ea5840;
+            }
+            &-blue{
+                background:#43b0f5;
+            }
+            .dt{
+                font-size:36px;
+            }
+        }
+        }
+    }
+    .block3-content{
+        .block3-list{
+            .item{
+                width: 320px;
+                height: 320px;
+                border-radius: 50%;
+                overflow: hidden;
+                position: relative;
+                float: left;
+                margin-left:105px;
+                &:first-child{
+                    margin-left:0;
+                }
+                img{
+                    width: 320px;
+                    height: 320px;
+                }
+                &:hover{
+                    .info{
+
+                    width: 320px;
+                    height: 320px;
+                    }
+                }
+                .info{
+                    position: absolute;
+                    left:50%;
+                    width:0;
+                    height: 0;
+                    transition: all 0.5s ease-in-out;
+                    top:50%;
+                    transform: translate(-50%,-50%);
+                    line-height: 320px;
+                    text-align: center;
+                    font-size:32px;
+                    color: #fff;
+                    background: rgba(0,0,0,.4);
+                    border-radius:50%;
+                    overflow:hidden;
+                }
+            }
+        }
+    }
+    .block4-content{
+        .block4-img{
+            height: 461px;
+            background: url('../images/coursesys/course-block5-content.png') no-repeat center;
+        }
+    }
+    .block5-content{
+        .block5-list{
+           .item{
+               width: 268px;
+               height: 218px;
+               background: url('../images/coursesys/course-block6-item-bg.png') no-repeat center top;
+               font-size:16px;
+               float: left;
+               margin-left:32.5px;
+               text-align: center;
+               padding:0 30px 30px 30px;
+               &:first-child{
+                   margin-left: 0;
+               }
+               .tit{
+                   font-size:28px;
+                   border-radius:0 0 10px 10px;
+                   background: #ffb123;
+                   text-align: center;
+                   height: 55px;
+                   line-height: 55px;
+                   width:165px;
+                   color: #000;
+                   margin-bottom:30px;
+                   display: inline-block;
+               }
+               .text{
+                   text-align: left;
+               }
+           }
+        }
+    }
+    .block6-content{
+        padding:17px 0;
+        border:1px solid #f3f3f3;
+        .item-box{
+            float: left;
+            width: 50%;
+            padding: 0 17px;
+            .tit{
+
+                .tit-inner{
+                    height: 70px;
+                    line-height: 70px;
+                    border-radius: 8px;
+                    color: #fff;
+                    display: inline-block;
+                    font-size: 32px;
+                    background: #ff6a00;
+                    padding:0 28px;
+                    &.grey{
+                        background: #4a5265;
+                    }
+                }
+            }
+        }
+        .item-list{
+            background: #f3f3f3;
+            padding:25px;
+            height: 220px;
+            li{
+                line-height: 32px;
+                .course-icon-check{
+                    display: inline-block;
+                    vertical-align: middle;
+                    height: 14px;
+                    width: 16px;
+                    background: url('../images/coursesys/check-icon.png') no-repeat center;
+                    margin-right:20px;
+                }
+                span{
+                    display: inline-block;
+                    vertical-align: middle;
+                    font-size:16px;
+                }
+            }
+        }
+    }
+}
