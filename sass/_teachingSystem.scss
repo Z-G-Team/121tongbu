@@ -1,6 +1,7 @@
-.teaching-banner {
+.teaching-system-banner {
   display: block;
-  background: url("../images/teach-banner.png") no-repeat center center #f2f2f2;
+  background: url("../images/teach-system/teach-banner.jpg") no-repeat center
+    center #f2f2f2;
   height: 630px;
 }
 
@@ -28,7 +29,8 @@
     h2 {
       display: block;
       text-indent: -999em;
-      background: url("../images/teaching-title-01.jpg") no-repeat center top;
+      background: url("../images/teach-system/teaching-title-01.jpg") no-repeat
+        center top;
       height: 70px;
     }
     p {
@@ -43,8 +45,8 @@
 
 .teaching-system-02 {
   position: relative;
-  background: url("../images/teach-system-02.png") no-repeat center top
-    $theme-color;
+  background: url("../images/teach-system/teach-system-02.png") no-repeat center
+    top $theme-color;
   height: 934px;
   .system-title {
     color: $color-white;
@@ -64,7 +66,8 @@
   position: relative;
   .teaching-system-content {
     position: relative;
-    background: url("../images/teach-swiper2-mac.png") no-repeat center top;
+    background: url("../images/teach-system/teach-swiper2-mac.png") no-repeat
+      center top;
     height: 758px;
     z-index: 1;
   }
@@ -116,7 +119,8 @@
   }
   .teaching-system-content {
     position: relative;
-    background: url("../images/teach-swiper3-pad.png") no-repeat center top;
+    background: url("../images/teach-system/teach-swiper3-pad.png") no-repeat
+      center top;
     height: 685px;
   }
   .swiper-container {

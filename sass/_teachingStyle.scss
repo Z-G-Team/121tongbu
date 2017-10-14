@@ -1,0 +1,137 @@
+.teaching-style-banner {
+  display: block;
+  background: url("../images/teach-style/teach-style-banner.jpg") no-repeat
+    center center;
+  height: 630px;
+}
+
+.teaching-style {
+  &-block {
+    padding: 70px 0 50px;
+  }
+  .style-title {
+    p {
+      font-size: 24px;
+      line-height: 1;
+    }
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    padding: 21px 29px;
+    border-radius: 50%;
+  }
+}
+
+.teaching-style-01 {
+  background-color: #fafafa;
+  .style-title {
+    h2 {
+      font-size: 62px;
+      line-height: 62px;
+      color: #000;
+    }
+  }
+  .style-list {
+  }
+  .style-list-item {
+    width: 1108px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: block;
+    &-title {
+      display: inline-block;
+      width: 210px;
+      height: 100%;
+      position: relative;
+      font-size: 24px;
+      color: $color-white;
+      text-align: center;
+      padding-top: 13px;
+      &:before {
+        position: absolute;
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+      }
+    }
+    &-text {
+      width: 780px;
+      height: 100%;
+      padding: 20px 0;
+      font-size: 18px;
+      line-height: 28px;
+      &.lh56 {
+        line-height: 56px;
+      }
+    }
+    &.item-single {
+      border: 2px solid $blue;
+      .style-list-item-title {
+        background-color: $blue;
+        &:before {
+          @include arrow(right,20px,$blue);
+          right: -20px;
+        }
+      }
+      .style-list-item-text {
+        margin-left: 265px;
+      }
+    }
+    &.item-double {
+      margin-left: 62px;
+      border: 2px solid #939393;
+      .style-list-item-title {
+        background-color: #939393;
+        &:before {
+          @include arrow(left,20px,#939393);
+          left: -20px;
+        }
+      }
+      .style-list-item-text {
+        margin-left: 70px;
+      }
+    }
+  }
+}
+.teaching-style-02 {
+  background-color: $blue;
+  position: relative;
+  //   height: 794px;
+  .style-title {
+    color: $color-white;
+    h2 {
+      font-size: 62px;
+      line-height: 62px;
+    }
+  }
+  .swiper-button-next2,
+  .swiper-button-prev2 {
+    background-color: $color-white;
+  }
+}
+
+.teaching-style-03 {
+  background-color: $color-white;
+  .style-title {
+    color: $blue;
+    h2 {
+      font-size: 62px;
+      line-height: 62px;
+    }
+  }
+  .teaching-style-content {
+    position: relative;
+    height: 501px;
+  }
+  .swiper-container {
+    width: 898px;
+    height: 501px;
+  }
+  .swiper-slide {
+  }
+  .swiper-button-next3,
+  .swiper-button-prev3 {
+    background-color: $blue;
+  }
+}
