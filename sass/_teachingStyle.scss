@@ -25,71 +25,120 @@
 }
 
 .teaching-style-01 {
-  background-color: #fafafa;
+  background-color: #f5f8fb;
+  position: relative;
+  .teaching-bg {
+    position: absolute;
+    display: block;
+  }
+  .teaching-bg-1 {
+    background: url("../images/teach-style/teach-style-bg-01.png") no-repeat
+      left top;
+    width: 782px;
+    height: 313px;
+    left: 0;
+    top: 0;
+  }
+  .teaching-bg-2 {
+    background: url("../images/teach-style/teach-style-bg-02.png") no-repeat
+      left top;
+    width: 386px;
+    height: 243px;
+    right: 0;
+    top: 0;
+  }
+  .teaching-bg-3 {
+    background: url("../images/teach-style/teach-style-bg-03.png") no-repeat
+      left top;
+    width: 315px;
+    height: 912px;
+    left: 0;
+    bottom: 500px;
+  }
+  .teaching-bg-4 {
+    background: url("../images/teach-style/teach-style-bg-04.png") no-repeat
+      left top;
+    width: 486px;
+    height: 865px;
+    right: 0;
+    top: 420px;
+  }
+  .teaching-bg-5 {
+    background: url("../images/teach-style/teach-style-bg-05.png") no-repeat
+      left top;
+    width: 550px;
+    height: 333px;
+    right: 0;
+    bottom: 0;
+  }
   .style-title {
     h2 {
       font-size: 62px;
       line-height: 62px;
-      color: #000;
+      color: $blue;
     }
   }
   .style-list {
   }
   .style-list-item {
-    width: 1108px;
-    height: 100px;
+    width: 100%;
+    height: 130px;
     margin-bottom: 20px;
     display: block;
     &-title {
       display: inline-block;
-      width: 210px;
+      width: 130px;
+      height: 130px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    &-text {
+      width: 990px;
       height: 100%;
+      padding: 20px 50px;
+      border: 2px solid $blue;
+      border-radius: 20px;
+      font-size: 16px;
+      line-height: 28px;
       position: relative;
-      font-size: 24px;
-      color: $color-white;
-      text-align: center;
-      padding-top: 13px;
-      &:before {
+      &:before,
+      &:after {
         position: absolute;
         top: 50%;
         transform: translate3d(0, -50%, 0);
       }
     }
-    &-text {
-      width: 780px;
-      height: 100%;
-      padding: 20px 0;
-      font-size: 18px;
-      line-height: 28px;
-      &.lh56 {
-        line-height: 56px;
-      }
-    }
     &.item-single {
-      border: 2px solid $blue;
-      .style-list-item-title {
-        background-color: $blue;
-        &:before {
-          @include arrow(right,20px,$blue);
-          right: -20px;
-        }
-      }
       .style-list-item-text {
-        margin-left: 265px;
-      }
-    }
-    &.item-double {
-      margin-left: 62px;
-      border: 2px solid #939393;
-      .style-list-item-title {
-        background-color: #939393;
+        background-color: $blue;
+        margin-left: 180px;
+        color: $color-white;
         &:before {
-          @include arrow(left,20px,#939393);
+          @include arrow(left,33px 20px,$blue);
           left: -20px;
         }
       }
       .style-list-item-text {
-        margin-left: 70px;
+      }
+    }
+    &.item-double {
+      .style-list-item-title {
+      }
+      .style-list-item-text {
+        margin-right: 50px;
+        color: $blue;
+        background-color: $color-white;
+        &:before {
+          @include arrow(right,33px 20px,$blue);
+          right: -20px;
+        }
+        &:after {
+          @include arrow(right,33px 20px,$color-white);
+          right: -18px;
+          z-index: 2;
+        }
       }
     }
   }
@@ -105,9 +154,19 @@
       line-height: 62px;
     }
   }
+  .swiper-container {
+    width: 910px;
+    height: 462px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 680px;
+    height: 462px;
+  }
   .swiper-button-next2,
   .swiper-button-prev2 {
-    background-color: $color-white;
+    background-color: #f3f730;
   }
 }
 
@@ -133,5 +192,29 @@
   .swiper-button-next3,
   .swiper-button-prev3 {
     background-color: $blue;
+  }
+}
+
+.teaching-style-04 {
+  background-color: #fafafa;
+}
+.teaching-style-student {
+  &-title {
+    width: 200px;
+    text-align: center;
+    font-size: 46px;
+    color: $blue;
+    line-height: 56px;
+    padding-top: 90px;
+    .icon-student {
+      display: inline-block;
+      background: url("../images/teach-style/icon-purper.png") no-repeat 0 0;
+      width: 56px;
+      height: 46px;
+      cursor: pointer;
+      margin-top: 60px;
+    }
+  }
+  &-pic {
   }
 }

@@ -1,232 +1,232 @@
 .learning-concepts {
-    .learn-banner {
-        background: url(../images/study/study-banner.jpg) no-repeat center;
-        background-size: cover;
-        height: 630px;
+  .learn-banner {
+    background: url(../images/study/study-banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 630px;
+  }
+  .learn_title {
+    padding: 50px 0 20px;
+    text-align: center;
+    h1 {
+      padding: 10px 0;
+      font-size: 34px;
+      font-weight: 100;
+      color: #ff6248;
     }
-    .learn_title {
-        padding: 50px 0 20px;
-        text-align: center;
-        h1 {
-            padding: 10px 0;
-            font-size: 34px;
-            font-weight: 100;
-            color: #ff6248;
-        }
-        h2 {
-            font-size: 24px;
-            font-weight: 100;
-            color: #333;
-        }
+    h2 {
+      font-size: 24px;
+      font-weight: 100;
+      color: #333;
     }
-    .learn_table {
-        width: 100%;
+  }
+  .learn_table {
+    width: 100%;
+  }
+  .learn_table_title {
+    position: relative;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    background-color: #f00;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    span {
+      position: absolute;
+      left: 0;
+      top: 30px;
+      display: block;
+      border: 10px solid rgba(0, 0, 0, 0);
+      border-left: 10px solid #f00;
     }
-    .learn_table_title {
-        position: relative;
-        width: 160px;
+  }
+  .learn_table_info {
+    padding: 15px 0;
+    font-size: 18px;
+    line-height: 32px;
+    color: #333;
+  }
+  .learn_table_img img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .learn_table2 .learn_table_title {
+    span {
+      border-left-color: #0bc3bb;
+    }
+    background: #0bc3bb;
+  }
+  .learn_table3 .learn_table_title {
+    span {
+      border-left-color: #18c863;
+    }
+    width: 230px;
+    background: #18c863;
+  }
+  .learn_table4 .learn_table_title {
+    span {
+      border-left-color: #fa9449;
+    }
+    width: 220px;
+    background: #fa9449;
+  }
+  .learn_table5 .learn_table_title {
+    span {
+      border-left-color: #c961dc;
+    }
+    background: #c961dc;
+  }
+  .learn_table6 .learn_table_title {
+    span {
+      border-left-color: #f6584f;
+    }
+    border-color: #f6584f;
+  }
+  .learn_title1 {
+    padding: 50px 0 30px 0;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    span {
+      color: #fe6a00;
+    }
+  }
+  .learn_mode2 {
+    padding-bottom: 80px;
+  }
+  .learn_carousel {
+    position: relative;
+    width: 1170px;
+    height: 668px;
+    background: url(../images/study/swiper-mac.png) no-repeat center;
+    padding-top: 28px;
+    .box {
+      position: relative;
+      margin: 0 auto;
+      width: 902px;
+      height: 566px;
+      overflow: hidden;
+      background: #fff;
+    }
+    ul {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    li {
+      float: left;
+      padding: 0 20px 20px;
+    }
+    span {
+      &.previous {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 240px;
+        width: 40px;
         height: 40px;
-        line-height: 40px;
-        font-size: 20px;
-        font-weight: 400;
-        text-align: center;
-        color: #fff;
-        background-color: #f00;
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        span {
-            position: absolute;
-            left: 0;
-            top: 30px;
-            display: block;
-            border: 10px solid rgba(0, 0, 0, 0);
-            border-left: 10px solid #f00;
-        }
+        background: url(../images/study/prev.png) no-repeat center;
+        background-size: 100%;
+      }
+      &.next {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 240px;
+        width: 40px;
+        height: 40px;
+        background: url(../images/study/next.png) no-repeat center;
+        background-size: 100%;
+      }
+      &.previous:hover,
+      &.next:hover {
+        background-color: #999;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        cursor: pointer;
+      }
     }
-    .learn_table_info {
-        padding: 15px 0;
-        font-size: 18px;
-        line-height: 32px;
-        color: #333;
+  }
+  .learn_mode3 {
+    padding-bottom: 50px;
+    a.btn-yy {
+      font-size: 30px;
     }
-    .learn_table_img img {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .learn_table2 .learn_table_title {
-        span {
-            border-left-color: #0bc3bb;
-        }
-        background: #0bc3bb;
-    }
-    .learn_table3 .learn_table_title {
-        span {
-            border-left-color: #18c863;
-        }
-        width: 230px;
-        background: #18c863;
-    }
-    .learn_table4 .learn_table_title {
-        span {
-            border-left-color: #fa9449;
-        }
-        width: 220px;
-        background: #fa9449;
-    }
-    .learn_table5 .learn_table_title {
-        span {
-            border-left-color: #c961dc;
-        }
-        background: #c961dc;
-    }
-    .learn_table6 .learn_table_title {
-        span {
-            border-left-color: #f6584f;
-        }
-        border-color: #f6584f;
-    }
-    .learn_title1 {
-        padding: 50px 0 30px 0;
-        font-size: 40px;
-        font-weight: 600;
-        text-align: center;
-        span {
-            color: #FE6A00;
-        }
-    }
-    .learn_mode2 {
-        padding-bottom: 80px;
-    }
-    .learn_carousel {
-        position: relative;
-        width: 1170px;
-        height: 668px;
-        background: url(../images/study/swiper-mac.png) no-repeat center;
-        padding-top: 28px;
-        .box {
-            position: relative;
-            margin: 0 auto;
-            width: 902px;
-            height: 566px;
-            overflow: hidden;
-            background: #fff;
-        }
-        ul {
-            position: absolute;
-            left: 0;
-            top: 0;
-        }
+    .list {
+      overflow: hidden;
+      ul {
         li {
-            float: left;
-            padding: 0 20px 20px;
-        }
-        span {
-            &.previous {
-                display: block;
-                position: absolute;
-                left: 0;
-                top: 240px;
-                width: 40px;
-                height: 40px;
-                background: url(../images/study/prev.png) no-repeat center;
-                background-size: 100%;
-            }
-            &.next {
-                display: block;
-                position: absolute;
-                right: 0;
-                top: 240px;
-                width: 40px;
-                height: 40px;
-                background: url(../images/study/next.png) no-repeat center;
-                background-size: 100%;
-            }
-            &.previous:hover,
-            &.next:hover {
-                background-color: #999;
-                border-radius: 20px;
-                -webkit-border-radius: 20px;
-                cursor: pointer;
-            }
-        }
-    }
-    .learn_mode3 {
-        padding-bottom: 50px;
-        a.btn-yy {
-            font-size: 30px;
-        }
-        .list {
+          float: left;
+          width: 380px;
+          margin-left: 15px;
+          &:first-child {
+            margin-left: 0;
+          }
+          img {
+            width: 380px;
+            height: 234px;
+          }
+          p {
+            padding: 23px;
+            height: 141px;
+            line-height: 24px;
             overflow: hidden;
-            ul {
-                li {
-                    float: left;
-                    width: 380px;
-                    margin-left: 15px;
-                    &:first-child {
-                        margin-left: 0;
-                    }
-                    img {
-                        width: 380px;
-                        height: 234px;
-                    }
-                    p {
-                        padding: 23px;
-                        height: 141px;
-                        line-height: 24px;
-                        overflow: hidden;
-                        background-color: #eee;
-                        font-size: 14px;
-                        color: 14px;
-                    }
-                }
-            }
+            background-color: #eee;
+            font-size: 14px;
+            color: 14px;
+          }
         }
+      }
     }
-    .learn_mode4 {
-        .fc-yellow {
-            color: #f8ff38;
+  }
+  .learn_mode4 {
+    .fc-yellow {
+      color: #f8ff38;
+    }
+    .list {
+      padding-bottom: 50px;
+      ul {
+        overflow: hidden;
+        li {
+          float: left;
+          width: 170px; // height: 360px;
+          margin-left: 80px;
+          padding: 10px;
+          text-align: center;
+          &:first-child {
+            margin-left: 0;
+          }
+          .icon {
+            width: 160px;
+            height: 160px;
+            margin: 0 auto;
+            box-shadow: 0px 0px 5px #666;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            overflow: hidden;
+            display: inline-block;
+          }
+          h2 {
+            text-align: center;
+            padding: 15px 0;
+            font-size: 20px;
+            color: #333;
+          }
+          p {
+            font-size: 14px;
+            color: #333;
+            line-height: 24px;
+            text-align: left;
+          }
         }
-        .list {
-            padding-bottom: 50px;
-            ul {
-                overflow: hidden;
-                li {
-                    float: left;
-                    width: 170px; // height: 360px;
-                    margin-left: 80px;
-                    padding: 10px;
-                    text-align: center;
-                    &:first-child {
-                        margin-left: 0;
-                    }
-                    .icon {
-                        width: 160px;
-                        height: 160px;
-                        margin: 0 auto;
-                        box-shadow: 0px 0px 5px #666;
-                        -webkit-border-radius: 50%;
-                        -moz-border-radius: 50%;
-                        border-radius: 50%;
-                        overflow: hidden;
-                        display: inline-block;
-                    }
-                    h2 {
-                        text-align: center;
-                        padding: 15px 0;
-                        font-size: 20px;
-                        color: #333;
-                    }
-                    p {
-                        font-size: 14px;
-                        color: #333;
-                        line-height: 24px;
-                        text-align: left;
-                    }
-                }
-            }
-        }
+      }
     }
-    .learn_mode5{
-        padding-bottom:50px;
-    }
+  }
+  .learn_mode5 {
+    padding-bottom: 50px;
+  }
 }

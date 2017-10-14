@@ -78,16 +78,16 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="/dest/images/teach-system/teach-swiper2-1.jpg" alt="">
+                            <img src="/dest/images/teach-system/teach-swiper1-1.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="/dest/images/teach-system/teach-swiper2-2.jpg" alt="">
+                            <img src="/dest/images/teach-system/teach-swiper1-2.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="/dest/images/teach-system/teach-swiper2-3.jpg" alt="">
+                            <img src="/dest/images/teach-system/teach-swiper1-3.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img src="/dest/images/teach-system/teach-swiper2-4.jpg" alt="">
+                            <img src="/dest/images/teach-system/teach-swiper1-4.jpg" alt="">
                         </div>
                     </div>
 
@@ -375,8 +375,19 @@
             var swiper2 = new Swiper('.teaching-system-02 .swiper-container', {
                 nextButton: '.swiper-button-next2',
                 prevButton: '.swiper-button-prev2',
-                spaceBetween: 30,
-                effect: 'fade'
+                effect: 'coverflow',
+                initialSlide: 2,
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                spaceBetween: 10,
+                coverflow: {
+                    rotate: 0,
+                    stretch: 408,
+                    depth: 400,
+                    modifier: 1,
+                    slideShadows: false
+                }
             });
             var swiper3 = new Swiper('.teaching-system-03 .swiper-container', {
                 nextButton: '.swiper-button-next3',

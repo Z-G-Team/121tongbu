@@ -55,6 +55,18 @@
       line-height: 62px;
     }
   }
+  .swiper-container {
+    width: 934px;
+    height: 627px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 686px;
+    height: 627px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
   .swiper-button-next2,
   .swiper-button-prev2 {
     background-color: $color-white;
