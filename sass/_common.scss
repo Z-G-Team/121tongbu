@@ -227,6 +227,9 @@
 .flex-two {
   @include flex(2);
 }
+.flex-middle {
+  @include align-items(center);
+}
 
 .jc-flex-start {
   @include justify-content(flex-start);

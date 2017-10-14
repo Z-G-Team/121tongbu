@@ -3,6 +3,7 @@
   background: url("../images/teach-banner.png") no-repeat center center #f2f2f2;
   height: 630px;
 }
+
 .teaching-system {
   &-block {
     padding: 70px 0 50px;
@@ -21,9 +22,10 @@
     border-radius: 50%;
   }
 }
+
 .teaching-system-01 {
   .system-title {
-    h1 {
+    h2 {
       display: block;
       text-indent: -999em;
       background: url("../images/teaching-title-01.jpg") no-repeat center top;
@@ -38,6 +40,7 @@
   .btn-booking {
   }
 }
+
 .teaching-system-02 {
   position: relative;
   background: url("../images/teach-system-02.png") no-repeat center top
@@ -45,7 +48,7 @@
   height: 934px;
   .system-title {
     color: $color-white;
-    h1 {
+    h2 {
       font-size: 62px;
       line-height: 62px;
     }
@@ -55,6 +58,7 @@
     background-color: $color-white;
   }
 }
+
 .teaching-system-03 {
   padding-bottom: 0;
   position: relative;
@@ -74,7 +78,6 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -104,6 +107,7 @@
     z-index: 0;
   }
 }
+
 .teaching-system-04 {
   background-color: #ffba26;
   padding-bottom: 70px;
@@ -124,7 +128,6 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -144,6 +147,7 @@
     background-color: $color-white;
   }
 }
+
 .teaching-system-05 {
   background-color: $color-white;
   .teaching-system-content {
@@ -159,5 +163,76 @@
   .swiper-button-next5,
   .swiper-button-prev5 {
     background-color: $color-primary;
+  }
+}
+
+.teaching-system-06 {
+  background-color: #fafafa;
+  .system-title {
+    h2 {
+      font-size: 62px;
+      line-height: 62px;
+      color: #000;
+    }
+  }
+  .system-list {
+  }
+  .system-list-item {
+    width: 1108px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: block;
+    &-title {
+      display: inline-block;
+      width: 210px;
+      height: 100%;
+      position: relative;
+      font-size: 24px;
+      color: $color-white;
+      text-align: center;
+      padding-top: 13px;
+      &:before {
+        position: absolute;
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+      }
+    }
+    &-text {
+      width: 780px;
+      height: 100%;
+      padding: 20px 0;
+      font-size: 18px;
+      line-height: 28px;
+      &.lh56 {
+        line-height: 56px;
+      }
+    }
+    &.item-single {
+      border: 2px solid $color-primary;
+      .system-list-item-title {
+        background-color: $color-primary;
+        &:before {
+          @include arrow(right,20px,$color-primary);
+          right: -20px;
+        }
+      }
+      .system-list-item-text {
+        margin-left: 265px;
+      }
+    }
+    &.item-double {
+      margin-left: 62px;
+      border: 2px solid #939393;
+      .system-list-item-title {
+        background-color: #939393;
+        &:before {
+          @include arrow(left,20px,#939393);
+          left: -20px;
+        }
+      }
+      .system-list-item-text {
+        margin-left: 70px;
+      }
+    }
   }
 }
