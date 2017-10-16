@@ -328,3 +328,181 @@
     z-index: 10;
     cursor: pointer
 }
+.service-big-box {
+    width: 510px;
+    height: 380px;
+    background: $green;
+    border-radius: 15px;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    &-t {
+      position: relative;
+      padding-bottom: 5px;
+      h2 {
+        font-size: 32px;
+        color: $color-white;
+      }
+      .icon-close-big {
+        background-position: 0px 0px;
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+      }
+    }
+    &-m {
+      position: relative;
+      background-color: $color-white;
+      padding: 18px 15px;
+      box-shadow: inset -2px 2px 5px #666;
+      .join-us-form {
+        width: 100%;
+        .form-item {
+          width: 210px;
+          &:last-child {
+            width: auto;
+          }
+          .form-item-label {
+            width: 80px;
+          }
+          .form-item-control {
+            width: 120px;
+            input {
+              width: 100%;
+              font-size: $font-size-14;
+            }
+          }
+        }
+        .form-item-select {
+          .form-group {
+            width: 110px;
+          }
+          .form-item-control {
+            width: 100%;
+            padding-right: 30px;
+          }
+        }
+        .form-item-radio {
+          padding: 0;
+          label {
+            padding-left: 0;
+          }
+          .checked {
+            @include square(13px);
+            border: 2px solid $orange1;
+            margin-top: 10px;
+          }
+          input[type="radio"] {
+            &:checked {
+              & + .checked {
+                background-color: $orange1;
+              }
+            }
+          }
+        }
+      }
+      .btn-apply {
+        height: 40px;
+        line-height: 40px;
+        color: $color-white;
+        text-align: center;
+        padding: 0 30px;
+        border-radius: 10px;
+        background-color: $orange1;
+        position: absolute;
+        left: 50%;
+        bottom: -25px;
+        transform: translate3d(-50%, 0, 0);
+      }
+    }
+    &-b {
+      .service-pic {
+        display: inline-block;
+        background: url("../images/service.png") no-repeat left bottom;
+        background-size: contain;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+      }
+    }
+  }
+  .join-us-form {
+    .form-item {
+      width: 285px;
+      height: 32px;
+      line-height: 32px;
+      display: inline-block;
+      margin-bottom: 10px;
+      &:last-child {
+        width: auto;
+      }
+  
+      .form-item-label {
+        width: 85px;
+        line-height: 30px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .form-item-control {
+        display: inline-block;
+        height: 32px;
+        border: 1px solid $color-text-gray;
+        border-radius: 3px;
+        width: 185px;
+        padding: 0 15px;
+        &.border-none {
+          border: 0;
+        }
+        .form-item-input {
+        }
+      }
+    }
+    .form-item-select {
+      .form-group {
+        display: inline-block;
+        width: 170px;
+        position: relative;
+        &:after {
+          @include arrow(bottom,6px,#666);
+          position: absolute;
+          right: 15px;
+          top: 13px;
+        }
+        .sr-only {
+          display: none;
+        }
+        .form-item-control {
+          width: 100%;
+        }
+      }
+    }
+    .form-item-radio {
+      label {
+        padding-left: 20px;
+      }
+      .checked {
+        @include square(18px);
+        display: inline-block;
+        border: 2px solid $theme-color;
+        border-radius: 50%;
+        vertical-align: top;
+        margin-top: 7px;
+      }
+      input[type="radio"] {
+        display: none;
+        &:checked {
+          & + .checked {
+            background-color: $theme-color;
+          }
+        }
+      }
+    }
+  }
+  .layui-layer-service{
+      border-radius: 15px !important;
+  }

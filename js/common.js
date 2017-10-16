@@ -1,4 +1,13 @@
-
+ function onlineApply() {
+    layer.open({
+      type: 1,
+      title: false,
+      skin: "layui-layer-service",
+      // closeBtn: false,
+      area: ["510px", "380px"], //宽高
+      content: $(".service-big-box")
+    });
+  }
 function learnCarousel(){
   var carousel = $(".learn_carousel");
   var ul=carousel.find("ul");
@@ -84,6 +93,12 @@ function learnCarousel(){
     });
   };
 
+  $("#distpicker").distpicker({
+    autoSelect: false
+  });
+  $("#distpicker1").distpicker({
+    autoSelect: false
+  });
   //懒加载控件执行
   $("img").lazyload({
     placeholder: "images/grey.gif",
@@ -91,5 +106,57 @@ function learnCarousel(){
     failurelimit: 54
   });
   learnCarousel();
-  
+  $('.onSub').click(function () {
+    var validate = {
+      userName: {
+        value: $('.yyUserName').val().trim(),
+        message: '请输入姓名！'
+      },
+      phone: {
+        value: /^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$/.test($('.yyPhone').val().trim()),
+        message: '请输入正确的手机号！'
+
+      },
+      email: {
+        value: /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/.test($('.yyEmail').val().trim()),
+        message:'请输入正确的邮箱格式'
+      },
+      occupation: {
+        value: $('.yyOccupation').val().trim(),
+        message: '请输入您定职位！'
+      },
+      address: {
+        value: $('.yyProvince').val() && $('.yyCity').val() && $('.yyDistrict').val(),
+        message: '请选择地址！'
+      }
+    }
+    for (var key in validate) {
+      if (!validate[key].value) {
+        layer.msg(validate[key].message)
+        return
+      }
+    }
+    // alert('ddd');
+    layer.load(1)
+    $.ajax({
+      url: '/Index/addBook',
+      data: $('#onForm').serialize(),
+      dataType: 'json',
+      type: 'post',
+      success: function (ret) {
+        layer.closeAll('loading');
+        layer.msg(ret.info);
+        $('.layui-layer-close').click();
+        $('#butForm').find('input').val('');
+        $('#butForm').find('#province02').val('');
+        $('#butForm').find('#city02').val('');
+        $('#butForm').find('#district02').val('');
+      },
+      error: function (ret) {
+        setTimeout(function () {
+          layer.closeAll();
+        }, 5000)
+      }
+    });
+  });
 });
