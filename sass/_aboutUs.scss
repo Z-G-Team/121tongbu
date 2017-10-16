@@ -1,0 +1,126 @@
+
+.about{
+    &-section-team{
+        background: #efefef;
+        padding-bottom:50px
+    }
+    &_title {
+    text-align: center;
+    padding: 60px 0 40px;
+    color: #333;
+    h1 {
+      padding: 5px 0;
+      font-size: 62px;
+      line-height: 80px;
+    }
+    p {
+      padding: 10px 0;
+      font-size: 28px;
+      line-height: 24px;
+    }
+    span {
+      display: inline-block;
+      width: 80px;
+      height: 3px;
+      background: #333;
+    }
+  }
+  
+  &_list_1 ul {
+    overflow: hidden;
+    li {
+      float: left;
+      width: 390px;
+      padding: 20px 50px;
+      text-align: center;
+      img {
+          display: inline-block;
+        width: 180px;
+        height: 180px;
+      }
+      p {
+          margin-top:30px;
+        height: 60px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 18px;
+      }
+    }
+  }
+  
+  &_list_2 ul {
+    overflow: hidden;
+    li {
+      float: left;
+      width: 390px;
+      .info {
+        padding: 20px;
+        h1 {
+          font-size: 24px;
+          font-weight: 100;
+          line-height: 24px;
+          padding-bottom: 10px;
+        }
+        span {
+          display: block;
+          width: 40px;
+          height: 3px;
+          background-color: #333;
+        }
+        p {
+          display: block;
+          padding: 10px 0;
+          height: 240px;
+          line-height: 24px;
+          font-size: 14px;
+          overflow: hidden;
+        }
+      }
+      .bg1 {
+        background-color: #ffda46;
+      }
+      .bg2 {
+        background-color: #dff378;
+      }
+      .bg3 {
+        background-color: #87f3ea;
+      }
+    }
+  }
+  &-team{
+      li{
+          color: #fff;
+          margin-bottom:30px;
+          font-size:0;
+          img{
+              display: inline-block;
+              width: 196px;
+              height: 196px;
+          }
+          .info{
+              width: 953px;
+              display: inline-block;
+              padding:20px;
+              border-radius: 15px;
+              margin-top:13px;
+              &.bg-blue{
+                  background: #3593cf;
+                  margin-left:1170-953-196+px;
+              }
+              &.bg-red{
+                  background: #e7637c;
+                  margin-right:1170-953-196+px;
+              }
+          }
+          .name{
+              font-size:42px;
+              line-height: 42px;
+              margin-bottom:15px;
+          }
+          .text{
+              font-size:18px;
+              line-height: 1.5;
+          }
+      }
+  }
+}
