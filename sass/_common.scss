@@ -87,6 +87,12 @@
     line-clamp: 2;  */
 }
 
+.l-ell-2 {
+  -ms-line-clamp: 2;
+  -moz-line-clamp: 2;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
 .l-ell-3 {
   -ms-line-clamp: 3;
   -moz-line-clamp: 3;
@@ -253,7 +259,9 @@ body {
   color: $color-text;
   -webkit-font-smoothing: subpixel-antialiased;
 }
-
+.bgc-fa {
+  background-color: #fafafa;
+}
 .wrapper {
   position: relative;
   width: 1170px;
