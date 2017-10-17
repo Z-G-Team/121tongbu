@@ -289,3 +289,96 @@ body {
   color: #fff;
   padding: 2px 3px;
 }
+.fixed-right{
+  width: 60px;
+  position: fixed;
+  top:30%;
+  right: 0;
+  z-index: 20;
+  .item{
+    width:60px;
+    height: 60px;
+    margin-bottom: 5px;
+    font-size:12px;
+    position: relative;
+    &.active{
+      .pos-inner{
+        left:-124px;
+        width: 124px;
+      }
+    }
+    .pos-inner{
+      position: absolute;
+      z-index: 5;
+      transition:all 0.3s;
+      width: 0;
+      height: 60px;
+      overflow: hidden;
+      left: 0;
+      border-right:10px solid #fff;
+      &:after{
+        content:'';
+        height: 10px;
+        width: 10px;
+        position: absolute;
+        background: #fc5278;
+        right: -10px;
+        top:25px;
+      }
+      top:0;
+      color: #fff;
+      padding:8px;
+      p{
+        font-size: 16px;
+      }
+      a{
+        color: #fff;
+      }
+      &.service-inner{
+        background: #fc5278;
+      }
+    }
+    .inner{
+      width: 100%;
+      height: 100%;
+      color: #000;
+      text-align: center;
+      padding:8px 5px 5px;
+      display: block;
+      position: relative;
+      z-index: 12;
+      i{
+        display: inline-block;
+        background:no-repeat center top transparent;
+        width: 36px;
+        height: 30px;
+      }
+      &.code{
+        background: #fce531;
+        i{
+          background-image: url('../images/right-code-icon.png');
+        }
+      }
+      &.yy{
+        background: #52defd;
+        i{
+          background-image: url('../images/right-call-icon.png');
+        }
+      }
+      &.service{
+        background: #fc5278;
+        i{
+          background-image: url('../images/right-service-icon.png');
+        }
+        
+      }
+      &.toTop{
+        background: #413e65;
+        color: #fff;
+        i{
+          background-image: url('../images/right-top-icon.png');
+        }
+      }
+    }
+  }
+}
