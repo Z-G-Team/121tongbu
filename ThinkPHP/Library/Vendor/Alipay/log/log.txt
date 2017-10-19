@@ -1,0 +1,451 @@
+2016-01-29 02:24:00  POST: array (
+  'sign' => 'MzFTTlbhn06Ln3wgH0OrrC57VoKVbvRJft3JjRil55tXhL8EsnCN7VPEn8fkoLSWjQibi2zlBGUZBifSW5AfjfvpjV32dJLUlR0TJ3EC++nkmc+KAC3yud9HmESfY/jfLX2ghNyp6vWnTkDMZh0dxWL8+GmuZXYvaoUz+Ey9iuQ=',
+  'biz_content' => '<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2016012801127470]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1454030640177]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>',
+  'sign_type' => 'RSA',
+  'service' => 'alipay.service.check',
+  'charset' => 'GBK',
+)
+2016-01-29 02:24:00  GET: array (
+)
+2016-01-29 02:24:00  response_xml: <?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzV7NL6C+dC2uBM+YcSyi7PE5q5d1IjREJ75GM9NuK0QETYXdUcRqBybBLgu4xT3bCxxv6HQlYzHkhou2ItI+1etTtKBGl8vE2bF3jPEO1S6He9dAbV4JzP6/K9i9YVl/aKFP86U6RcaReef/WXJaa9TwbBJcYviZLL25MHi7faQIDAQAB</biz_content></response><sign>NkAbS4OR6+6FaCtjeVgsdJUBocvW0AHc1NeFlFCZ4jQBCvQCOmV+z8IjkmIT0wIMP9RkJi5h7I8cccl3TheIQcP7bU+vvKe6P/s4N5BLSJmFjlW8Cfxhjfsu3EaJ54WsFGms7jVJX1g6JpglhoCsWlc8XGjHo3tb6JFfseI92Lg=</sign><sign_type>RSA</sign_type></alipay>
+2016-01-29 02:24:10  POST: array (
+)
+2016-01-29 02:24:10  GET: array (
+)
+2016-01-29 02:24:10  some parameter is empty.
+2016-01-29 02:24:28  POST: array (
+  'sign' => 'QjKxB9ose6cQDVoPfO9jMla2uusVFU6w4HSY2MeuSxpm+VUf29logjlSyPUsO3U4CqA1+FK0wb/6nQmAwIAC3D0XCyEMH6mqkHUtRyyxe1uKU8OhHGuwn6MEMl+gofk85pyOwjBKes67XLuWVGR93OgZwJKlDfbcnzaUniKoclo=',
+  'biz_content' => '<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2016012801127470]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1454030667887]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>',
+  'sign_type' => 'RSA',
+  'service' => 'alipay.service.check',
+  'charset' => 'GBK',
+)
+2016-01-29 02:24:28  GET: array (
+)
+2016-01-29 02:24:28  response_xml: <?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzV7NL6C+dC2uBM+YcSyi7PE5q5d1IjREJ75GM9NuK0QETYXdUcRqBybBLgu4xT3bCxxv6HQlYzHkhou2ItI+1etTtKBGl8vE2bF3jPEO1S6He9dAbV4JzP6/K9i9YVl/aKFP86U6RcaReef/WXJaa9TwbBJcYviZLL25MHi7faQIDAQAB</biz_content></response><sign>NkAbS4OR6+6FaCtjeVgsdJUBocvW0AHc1NeFlFCZ4jQBCvQCOmV+z8IjkmIT0wIMP9RkJi5h7I8cccl3TheIQcP7bU+vvKe6P/s4N5BLSJmFjlW8Cfxhjfsu3EaJ54WsFGms7jVJX1g6JpglhoCsWlc8XGjHo3tb6JFfseI92Lg=</sign><sign_type>RSA</sign_type></alipay>
+2016-01-29 02:25:21  POST: array (
+  'sign' => 'WkBs2ywWMIS2HKR07xdmi8DaxM/KBsiN4i6YB6G3OS1NRamfhw3ZvVjG/v2+AoT1BVngyRz6z8cI13iQ5iRPvzcuY/YTPKzKNmhhwnw55qAAv3LgOLVfXy8wi7ya+fguk5/eWDHPhGBYTNQ44DuA4m58CwTn10DlGw40yyVw4T4=',
+  'biz_content' => '<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2016012801127470]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1454030721234]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>',
+  'sign_type' => 'RSA',
+  'service' => 'alipay.service.check',
+  'charset' => 'GBK',
+)
+2016-01-29 02:25:21  GET: array (
+)
+2016-01-29 02:25:21  response_xml: <?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzV7NL6C+dC2uBM+YcSyi7PE5q5d1IjREJ75GM9NuK0QETYXdUcRqBybBLgu4xT3bCxxv6HQlYzHkhou2ItI+1etTtKBGl8vE2bF3jPEO1S6He9dAbV4JzP6/K9i9YVl/aKFP86U6RcaReef/WXJaa9TwbBJcYviZLL25MHi7faQIDAQAB</biz_content></response><sign>NkAbS4OR6+6FaCtjeVgsdJUBocvW0AHc1NeFlFCZ4jQBCvQCOmV+z8IjkmIT0wIMP9RkJi5h7I8cccl3TheIQcP7bU+vvKe6P/s4N5BLSJmFjlW8Cfxhjfsu3EaJ54WsFGms7jVJX1g6JpglhoCsWlc8XGjHo3tb6JFfseI92Lg=</sign><sign_type>RSA</sign_type></alipay>
+2016-01-29 02:54:53  POST: array (
+)
+2016-01-29 02:54:53  GET: array (
+)
+2016-01-29 02:54:53  some parameter is empty.
+2016-01-29 02:55:39  POST: array (
+  'sign' => 'HdTKIq4mTs0wnHJJlXUY3O5BpKAGmXCn5NcZ/dlR9Z3EmeQmCYf0RjS2tVNN19uNfA2upC0yeB5SR4smAH1Gt4treeaBg/QTefj8RTXO8Ck16hYJ58Rrierz89bnct1BgBAyOuyNKDVMzLd0zUifKiYro9qpoXp7ZOi+yjunp1E=',
+  'biz_content' => '<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2016012801127470]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1454032539607]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>',
+  'sign_type' => 'RSA',
+  'service' => 'alipay.service.check',
+  'charset' => 'GBK',
+)
+2016-01-29 02:55:39  GET: array (
+)
+2016-01-29 02:55:39  response_xml: <?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzV7NL6C+dC2uBM+YcSyi7PE5q5d1IjREJ75GM9NuK0QETYXdUcRqBybBLgu4xT3bCxxv6HQlYzHkhou2ItI+1etTtKBGl8vE2bF3jPEO1S6He9dAbV4JzP6/K9i9YVl/aKFP86U6RcaReef/WXJaa9TwbBJcYviZLL25MHi7faQIDAQAB</biz_content></response><sign>NkAbS4OR6+6FaCtjeVgsdJUBocvW0AHc1NeFlFCZ4jQBCvQCOmV+z8IjkmIT0wIMP9RkJi5h7I8cccl3TheIQcP7bU+vvKe6P/s4N5BLSJmFjlW8Cfxhjfsu3EaJ54WsFGms7jVJX1g6JpglhoCsWlc8XGjHo3tb6JFfseI92Lg=</sign><sign_type>RSA</sign_type></alipay>
+2016-01-29 03:09:18  POST: array (
+)
+2016-01-29 03:09:18  GET: array (
+)
+2016-01-29 03:09:18  some parameter is empty.
+2016-01-29 03:09:28  POST: array (
+  'sign' => 'O7CQMUMKBsTpAnksMIoSQ1993dLNnxvDyRkunzT6iqzcnsTmbMKoqv8ZftsWdLwU1wYcYAEDP8mBgySMjgMbBPWVMOAAXFvnRzAjsnxAbXQe9RSxXZtA6hPgP6o5tGHy8XplcqbkqAmBrer6j0ndk4DjsEYNkoSsofId/OI9Nz4=',
+  'biz_content' => '<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2016012801127470]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1454033368560]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>',
+  'sign_type' => 'RSA',
+  'service' => 'alipay.service.check',
+  'charset' => 'GBK',
+)
+2016-01-29 03:09:28  GET: array (
+)
+2016-01-29 03:09:28  response_xml: <?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDI6d306Q8fIfCOaTXyiUeJHkrIvYISRcc73s3vF1ZT7XN8RNPwJxo8pWaJMmvyTn9N4HQ632qJBVHf8sxHi/fEsraprwCtzvzQETrNRwVxLO5jVmRGi60j8Ue1efIlzPXV9je9mkjzOmdssymZkh2QhUrCmZYI/FCEa3/cNMW0QIDAQAB</biz_content></response><sign>k9AXZmH+21r0JmKyQZrcLrySqzuXXDDzqu6wPGTe2EnfvZvl+9RL1H+pgWXIv01cHMMS3W5b8DVeQh45MXIIAOeGBm+DEKl/f6Lft4Z7pLjGEeVM74ZdLN2+U9pvi+W1yUIWRRimzItPEFtVK0cCYpKfX1KUC6Xf6iUAw1M3KUI=</sign><sign_type>RSA</sign_type></alipay>
+2016-01-29 03:09:51  POST: array (
+  'sign' => 'DIB79N/dKwwcRvOw1yFBu1i7kL30iv8hUq2FUSqj+rCcWZNVUSb1AsB8Ayob7hr4AziLOhM4zHQKtclXPmMTCsOQ/qiWT5l2dWw90ZlAXfjAZK0vIumWomuywkvQvaIe9NeJpYASp50soa7vrd3CJAsJ2/6WRB/puIZrGCLupt4=',
+  'biz_content' => '<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2016012801127470]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1454033391579]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>',
+  'sign_type' => 'RSA',
+  'service' => 'alipay.service.check',
+  'charset' => 'GBK',
+)
+2016-01-29 03:09:51  GET: array (
+)
+2016-01-29 03:09:51  response_xml: <?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzV7NL6C+dC2uBM+YcSyi7PE5q5d1IjREJ75GM9NuK0QETYXdUcRqBybBLgu4xT3bCxxv6HQlYzHkhou2ItI+1etTtKBGl8vE2bF3jPEO1S6He9dAbV4JzP6/K9i9YVl/aKFP86U6RcaReef/WXJaa9TwbBJcYviZLL25MHi7faQIDAQAB</biz_content></response><sign>NkAbS4OR6+6FaCtjeVgsdJUBocvW0AHc1NeFlFCZ4jQBCvQCOmV+z8IjkmIT0wIMP9RkJi5h7I8cccl3TheIQcP7bU+vvKe6P/s4N5BLSJmFjlW8Cfxhjfsu3EaJ54WsFGms7jVJX1g6JpglhoCsWlc8XGjHo3tb6JFfseI92Lg=</sign><sign_type>RSA</sign_type></alipay>
+2016-01-29 03:10:26  POST: array (
+  'sign' => 'MnNXgZKTRPWw59SRmqQCrhjf6P5CUn23SBMLVhhW+18c0kFW5hnIC3EuPARDns/PJ1Vs/+R+lPWfhLajjyoGULkaZTsR7CSn14XcVsCTFEu2xc1xTyeew3GQzxkBpprHaRCeMZECdUiflAvCwpN9l9aKFCk1kkyQGPTQfsMckhc=',
+  'biz_content' => '<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2016012801127470]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1454033426084]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>',
+  'sign_type' => 'RSA',
+  'service' => 'alipay.service.check',
+  'charset' => 'GBK',
+)
+2016-01-29 03:10:26  GET: array (
+)
+2016-01-29 03:10:26  response_xml: <?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzV7NL6C+dC2uBM+YcSyi7PE5q5d1IjREJ75GM9NuK0QETYXdUcRqBybBLgu4xT3bCxxv6HQlYzHkhou2ItI+1etTtKBGl8vE2bF3jPEO1S6He9dAbV4JzP6/K9i9YVl/aKFP86U6RcaReef/WXJaa9TwbBJcYviZLL25MHi7faQIDAQAB</biz_content></response><sign>NkAbS4OR6+6FaCtjeVgsdJUBocvW0AHc1NeFlFCZ4jQBCvQCOmV+z8IjkmIT0wIMP9RkJi5h7I8cccl3TheIQcP7bU+vvKe6P/s4N5BLSJmFjlW8Cfxhjfsu3EaJ54WsFGms7jVJX1g6JpglhoCsWlc8XGjHo3tb6JFfseI92Lg=</sign><sign_type>RSA</sign_type></alipay>
+2016-01-29 03:13:17  POST: array (
+  'sign' => 'OhDoaEuCCyHUcubfwXm7sPKbOp2d+VPZ42hnGnYEtPBIUl4bGYCjgJDuPAEo9QF263WJc8qsZFDpsQBfQyrq9NKWy/DiV6TCLUCU0bgxR1TemI9VGo6HkD7h8X7iRGczN757Lz8/SdpIGa+GtqjAek6G8Fyt62K41A+9RCO2V7c=',
+  'biz_content' => '<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2016012801127470]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1454033597311]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>',
+  'sign_type' => 'RSA',
+  'service' => 'alipay.service.check',
+  'charset' => 'GBK',
+)
+2016-01-29 03:13:17  GET: array (
+)
+2016-01-29 03:13:17  response_xml: <?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgN07CymErkAkEU1/Sdh/hntrdZoKH2LUQIBljtIiZSn2GTNerrpfs0TGN7hrW7UIoq+mrzYT34BnfMwE0F6j3+FTFeE8K4INTuTer0NwZqClgth7RU63Btsnenot89wCad5Ei2Cfih/s05aXpEf/Bh64gScOt9EqFHho2BnU8RwIDAQAB</biz_content></response><sign>BSj6YRjKf19LiI5+8xJrrTRKWTqIyYBalNI4mUBGFlEbmDa+agbUbGqbcqbR+n5EOux53IFBvsa90/pA9scy94fjfKvMzOrw/IKZOsGBBzrMDNGxzaJRn5EAu3I/zDwst4NmkIg2Z/R4wbpF0K1ClLv9hL/H12CAu5AxDsEH2Ec=</sign><sign_type>RSA</sign_type></alipay>
+2016-01-29 03:22:27  POST: array (
+  'sign' => 'dS7VhL15poriHcj+z542NMjP4gWotSpFgoIm6LsXgFuO0+KhSSwbPS/+Gx1Zj/4+umjbj+41HUH+zCl+SNue4oQg6AAEw/NJMN4pRry7jG8aqX4I6K5mF/i4q5qAYhV0hhToHUZMN6mI/q3CV3ooumVZ8+Yrs76Rhw54nc8/qOo=',
+  'biz_content' => '<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2016012801127470]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1454034146965]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>',
+  'sign_type' => 'RSA',
+  'service' => 'alipay.service.check',
+  'charset' => 'GBK',
+)
+2016-01-29 03:22:27  GET: array (
+)
+2016-01-29 03:22:27  response_xml: <?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgN07CymErkAkEU1/Sdh/hntrdZoKH2LUQIBljtIiZSn2GTNerrpfs0TGN7hrW7UIoq+mrzYT34BnfMwE0F6j3+FTFeE8K4INTuTer0NwZqClgth7RU63Btsnenot89wCad5Ei2Cfih/s05aXpEf/Bh64gScOt9EqFHho2BnU8RwIDAQAB</biz_content></response><sign>BSj6YRjKf19LiI5+8xJrrTRKWTqIyYBalNI4mUBGFlEbmDa+agbUbGqbcqbR+n5EOux53IFBvsa90/pA9scy94fjfKvMzOrw/IKZOsGBBzrMDNGxzaJRn5EAu3I/zDwst4NmkIg2Z/R4wbpF0K1ClLv9hL/H12CAu5AxDsEH2Ec=</sign><sign_type>RSA</sign_type></alipay>
+2016-01-29 03:23:44  POST: array (
+  'sign' => 'JvIglH4iT4Dr+bNgxD4cBPb1qu/6dp0v9R0hbLWNVg20qyDQ0zfCAIdWiaCRPRYYZdKuwxANHjqPEbiQdn9sU+LxeNo5YWNz+SZI/vgWdwK8qoOsVh9QTYqLPDgYG+KOyKD4JKgne6rs3LhXREiyugSDcxBPmDywk0mI6sLf//g=',
+  'biz_content' => '<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2016012801127470]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1454034224413]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>',
+  'sign_type' => 'RSA',
+  'service' => 'alipay.service.check',
+  'charset' => 'GBK',
+)
+2016-01-29 03:23:44  GET: array (
+)
+2016-01-29 03:23:44  response_xml: <?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgN07CymErkAkEU1/Sdh/hntrdZoKH2LUQIBljtIiZSn2GTNerrpfs0TGN7hrW7UIoq+mrzYT34BnfMwE0F6j3+FTFeE8K4INTuTer0NwZqClgth7RU63Btsnenot89wCad5Ei2Cfih/s05aXpEf/Bh64gScOt9EqFHho2BnU8RwIDAQAB</biz_content></response><sign>BSj6YRjKf19LiI5+8xJrrTRKWTqIyYBalNI4mUBGFlEbmDa+agbUbGqbcqbR+n5EOux53IFBvsa90/pA9scy94fjfKvMzOrw/IKZOsGBBzrMDNGxzaJRn5EAu3I/zDwst4NmkIg2Z/R4wbpF0K1ClLv9hL/H12CAu5AxDsEH2Ec=</sign><sign_type>RSA</sign_type></alipay>
+2016-01-29 03:26:07  POST: array (
+  'sign' => 'CULp9TFsOdshPsgJ6OdZFZRjpo/fVRnpViJfSlQVrlr8WSVJPQKg17J8DATnvdc6IPxMCw2TPOLOz0tfROk4cQ65YVNZ3gh5dCz7k6Rtxna2vwE18MPyL6Zt31H6n/QD3TXL6XNebEt7yUvA3KvbmGGD8U1eP8rnBEiuRQNsO38=',
+  'biz_content' => '<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2016012801127470]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1454034367457]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>',
+  'sign_type' => 'RSA',
+  'service' => 'alipay.service.check',
+  'charset' => 'GBK',
+)
+2016-01-29 03:26:07  GET: array (
+)
+2016-01-29 03:26:07  response_xml: <?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgN07CymErkAkEU1/Sdh/hntrdZoKH2LUQIBljtIiZSn2GTNerrpfs0TGN7hrW7UIoq+mrzYT34BnfMwE0F6j3+FTFeE8K4INTuTer0NwZqClgth7RU63Btsnenot89wCad5Ei2Cfih/s05aXpEf/Bh64gScOt9EqFHho2BnU8RwIDAQAB</biz_content></response><sign>BSj6YRjKf19LiI5+8xJrrTRKWTqIyYBalNI4mUBGFlEbmDa+agbUbGqbcqbR+n5EOux53IFBvsa90/pA9scy94fjfKvMzOrw/IKZOsGBBzrMDNGxzaJRn5EAu3I/zDwst4NmkIg2Z/R4wbpF0K1ClLv9hL/H12CAu5AxDsEH2Ec=</sign><sign_type>RSA</sign_type></alipay>
+2016-01-29 03:26:50  POST: array (
+  'sign' => 'fukavRKQBtK3vN79FlFj91wBqqpHxc2c05E3+JG+zZLOsYNyU1nz63Lftr+7i74nFmSBRxOOLJJfyXkYnAMGb+BfWMnscHmIoh7pI7lsgRdOj920ylwa2ZFKoUI6OohQDYkSak+XW3I7jCSHNyL73d/3oNPdMV19uPJvIIDPmAM=',
+  'biz_content' => '<?xml version="1.0" encoding="gbk"?><XML><AppId><![CDATA[2016012801127470]]></AppId><FromUserId></FromUserId><CreateTime><![CDATA[1454034410108]]></CreateTime><MsgType><![CDATA[event]]></MsgType><EventType><![CDATA[verifygw]]></EventType><ActionParam></ActionParam><AgreementId></AgreementId><AccountNo></AccountNo></XML>',
+  'sign_type' => 'RSA',
+  'service' => 'alipay.service.check',
+  'charset' => 'GBK',
+)
+2016-01-29 03:26:50  GET: array (
+)
+2016-01-29 03:26:50  response_xml: <?xml version="1.0" encoding="GBK"?><alipay><response><success>true</success><biz_content>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgN07CymErkAkEU1/Sdh/hntrdZoKH2LUQIBljtIiZSn2GTNerrpfs0TGN7hrW7UIoq+mrzYT34BnfMwE0F6j3+FTFeE8K4INTuTer0NwZqClgth7RU63Btsnenot89wCad5Ei2Cfih/s05aXpEf/Bh64gScOt9EqFHho2BnU8RwIDAQAB</biz_content></response><sign>BSj6YRjKf19LiI5+8xJrrTRKWTqIyYBalNI4mUBGFlEbmDa+agbUbGqbcqbR+n5EOux53IFBvsa90/pA9scy94fjfKvMzOrw/IKZOsGBBzrMDNGxzaJRn5EAu3I/zDwst4NmkIg2Z/R4wbpF0K1ClLv9hL/H12CAu5AxDsEH2Ec=</sign><sign_type>RSA</sign_type></alipay>
+2016-01-29 03:27:32  POST: array (
+)
+2016-01-29 03:27:32  GET: array (
+)
+2016-01-29 03:27:32  some parameter is empty.
+2016-01-29 03:27:37  POST: array (
+)
+2016-01-29 03:27:37  GET: array (
+)
+2016-01-29 03:27:37  some parameter is empty.
+2016-01-29 03:27:47  POST: array (
+)
+2016-01-29 03:27:47  GET: array (
+)
+2016-01-29 03:28:07  POST: array (
+)
+2016-01-29 03:28:07  GET: array (
+  'param' => 'qr',
+)
+2016-01-29 03:28:08  response: stdClass::__set_state(array(
+   'alipay_mobile_public_qrcode_create_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'code_img' => 'https://mobilecodec.alipay.com/show.htm?code=pvx0705966ttlg80hrchcd9&picSize=M',
+     'expire_second' => 1800,
+     'msg' => '成功',
+  )),
+   'sign' => 'c6cgZ9eo6ElFFZ3feWxCN+l3eJcfMtDgpaZfYWa/XZtl5haE6KvZXZF/2MOiQo0L+k14CjwH5fzn0CfSOI1DJuy4kmWZoCmRB8Ot+dCqKmcvpCFid8EiWg+P60mk5v0F/Sau05IeNYRFdVNMEqSCwl5Ffl6pW9eSr+PxpHlxkTY=',
+))
+2016-01-29 03:28:08  返回的二维码地址：https://mobilecodec.alipay.com/show.htm?code=pvx0705966ttlg80hrchcd9&picSize=M
+2016-01-29 03:28:49  POST: array (
+)
+2016-01-29 03:28:49  GET: array (
+)
+2016-01-29 03:29:02  POST: array (
+)
+2016-01-29 03:29:02  GET: array (
+  'param' => 'qr',
+)
+2016-01-29 03:29:03  response: stdClass::__set_state(array(
+   'alipay_mobile_public_qrcode_create_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'code_img' => 'https://mobilecodec.alipay.com/show.htm?code=pvx05502wxaz2q6kqjlyu7c&picSize=M',
+     'expire_second' => 1800,
+     'msg' => '成功',
+  )),
+   'sign' => 'SJTJ0gUs/9oGTfwF2v7OIa/3zAXXnR1KpCPaW8D4VaRkhkctzDAXnBeghEZfynkGxgxQCYLnSp8RFPKE+2OAbrQ3z8Yz+cf1ayE59y+g4St0mue1Fuwc+JssaXMkJF6hBAGDag94b6gAh5KgOTIPYdn8REMq6bIU3Qp3vJfQeac=',
+))
+2016-01-29 03:29:03  返回的二维码地址：https://mobilecodec.alipay.com/show.htm?code=pvx05502wxaz2q6kqjlyu7c&picSize=M
+2016-01-29 03:29:37  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 03:39:03  POST: array (
+)
+2016-01-29 03:39:03  GET: array (
+  'param' => 'follow',
+)
+2016-01-29 03:39:04  response: stdClass::__set_state(array(
+   'alipay_mobile_public_follow_list_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'count' => '0',
+     'data' => 
+    stdClass::__set_state(array(
+    )),
+  )),
+   'sign' => 'YiTTUEjOeGw3NuEAiPrBu+lDpqRwimM6JIe6GbhThHmmnFzJOlecUiuNKzED2gYmUA5x3oqHUuEQv5OgySJGMBmCaGL2MEqkWgG+WKLtWRU5sTrErzscJ1behn5Wdj1YGadkQVnTaTZWCxzr18rR3sYnalxYZToqIyPsN1lmxlA=',
+))
+2016-01-29 03:39:08  POST: array (
+)
+2016-01-29 03:39:08  GET: array (
+  'param' => 'gis',
+)
+2016-01-29 03:39:08  response: stdClass::__set_state(array(
+   'alipay_mobile_public_gis_get_response' => 
+  stdClass::__set_state(array(
+     'code' => 503,
+     'msg' => '系统错误',
+  )),
+   'sign' => 'U4Rg7/vHZyk/THaM9SlFQ9vos8Wp0FltEt6ggm2VD6neLqtIPfHV0TV3EOr6SFEJFT2pjikYY5fbhDqIqsKpFRHG8Czeb1WhRfjnVCZ9OTYIJvJyRY8VO0on0G1jJVTV0vR9xEIaXDDEGY8UrIhbGVIaYFF1XBXaUgnNMm8CagA=',
+))
+2016-01-29 04:04:47  POST: array (
+)
+2016-01-29 04:04:47  GET: array (
+  'param' => 'gis',
+)
+2016-01-29 04:04:48  response: stdClass::__set_state(array(
+   'alipay_mobile_public_gis_get_response' => 
+  stdClass::__set_state(array(
+     'code' => 503,
+     'msg' => '系统错误',
+  )),
+   'sign' => 'U4Rg7/vHZyk/THaM9SlFQ9vos8Wp0FltEt6ggm2VD6neLqtIPfHV0TV3EOr6SFEJFT2pjikYY5fbhDqIqsKpFRHG8Czeb1WhRfjnVCZ9OTYIJvJyRY8VO0on0G1jJVTV0vR9xEIaXDDEGY8UrIhbGVIaYFF1XBXaUgnNMm8CagA=',
+))
+2016-01-29 14:35:45  POST: array (
+)
+2016-01-29 14:35:45  GET: array (
+)
+2016-01-29 14:35:57  POST: array (
+)
+2016-01-29 14:35:57  GET: array (
+)
+2016-01-29 14:39:10  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 14:40:19  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 14:58:50  POST: array (
+)
+2016-01-29 14:58:50  GET: array (
+)
+2016-01-29 15:15:35  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 15:23:17  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 16:25:31  response: false
+2016-01-29 16:25:57  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 16:35:44  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 16:42:47  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 16:44:25  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 16:52:54  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 16:58:03  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 17:01:45  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 17:05:03  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 17:12:08  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 17:13:47  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 17:14:37  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 17:15:00  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 17:16:58  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 17:16:58  返回的二维码地址：http://www.baidu.com
+2016-01-29 17:56:51  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 17:57:26  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2016-01-29 18:06:40  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))

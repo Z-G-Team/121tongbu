@@ -1,0 +1,153 @@
+[ 2016-11-09T22:14:39+08:00 ] 127.0.0.1 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-11-09T22:14:39+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011128s ]
+
+[ 2016-11-09T22:15:03+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ke_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `ke_user` SET `last_login_time`='2016-11-06 21:30:43',`last_login_ip`='127.0.0.1',`now_login_time`='2016-11-09 22:15:03',`now_login_ip`='127.0.0.1',`login_times`='245' WHERE `id` = 1 [ RunTime:0.0549s ]
+
+[ 2016-11-09T22:15:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `ke_menu` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `ke_role` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_menu` WHERE `id` IN ('126','127','161','180','181','349','401','440','162','163','165','166','179','187','188','189','190','164','167','168','169','170','171','172','173','174','175','176','177','178','339','134','135','147','156','340','341','342','373','343','344','345','346','347','364','365','366','367','368','369','370','371','372','392','393','394','395','396','397','398','399','400','450','451','452','453','454','470','460','461','462','463','464','465','466','467','468','469','471','472','473','474','475') AND `type` = 1 ORDER BY sort desc  [ RunTime:0.0014s ]
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\sc\Application\Common\Common\function.php 第 177 行.
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\sc\Application\Common\Common\function.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 86 行.
+NOTIC: [8] Undefined variable: dp_count E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 153 行.
+NOTIC: [8] Undefined variable: dp_count E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Undefined variable: xq_count E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 184 行.
+NOTIC: [8] Undefined variable: xq_count E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 196 行.
+NOTIC: [8] Undefined variable: zp_count E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 208 行.
+NOTIC: [8] Undefined variable: zp_count E:\www\sc\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 220 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-11-09T22:15:09+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ke_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ke_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ke_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ke_menu` WHERE `id` IN ('126','127','161','180','181','349','401','440','162','163','165','166','179','187','188','189','190','164','167','168','169','170','171','172','173','174','175','176','177','178','339','134','135','147','156','340','341','342','373','343','344','345','346','347','364','365','366','367','368','369','370','371','372','392','393','394','395','396','397','398','399','400','450','451','452','453','454','470','460','461','462','463','464','465','466','467','468','469','471','472','473','474','475') AND `type` = 1 ORDER BY sort desc  [ RunTime:0.0009s ]
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\sc\Application\Common\Common\function.php 第 177 行.
+NOTIC: [2] array_multisort(): Argument #2 is expected to be an array or a sort flag E:\www\sc\Application\Common\Common\function.php 第 177 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_user` ORDER BY id asc LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 80 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+NOTIC: [8] Undefined index: cur E:\www\sc\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+

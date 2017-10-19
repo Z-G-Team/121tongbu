@@ -1,0 +1,421 @@
+[ 2016-11-28T21:58:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `ke_nav` [ RunTime:0.0817s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=2 ) ORDER BY sort desc, id asc  [ RunTime:0.0096s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND isindex=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ke_article` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `ke_article` WHERE ( pid=14 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ke_article` WHERE ( pid=12 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_article` WHERE ( pid=13 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.035501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044167s ]
+
+[ 2016-11-28T21:58:29+08:00 ] 127.0.0.1 /Public/Statics/static/images/mainpic_arrow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+]
+
+[ 2016-11-28T21:58:32+08:00 ] 127.0.0.1 /index.php/Product/lists/id/384.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `ke_nav` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=2 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND isindex=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ke_product_category` WHERE `id` = 384 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND pid = 384 ) ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 ) ORDER BY sort desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0476s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ke_product` WHERE (  status=1 AND checked=1 AND `delete`=0  AND (fpid=384 OR spid=384 OR tpid=384) ) LIMIT 1   [ RunTime:0.0105s ]
+SQL: SELECT `id`,`name`,`pic`,`market_price`,`price` FROM `ke_product` WHERE (  status=1 AND checked=1 AND `delete`=0  AND (fpid=384 OR spid=384 OR tpid=384) ) ORDER BY sort desc, id desc LIMIT 0,100   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-11-28T21:58:33+08:00 ] 127.0.0.1 /Public/Statics/static/images/sidenav_h2icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-11-28T21:58:33+08:00 ] 127.0.0.1 /Public/Statics/static/images/sidenav_list_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-11-28T21:59:12+08:00 ] 127.0.0.1 /index.php/Product/info/id/201.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `ke_nav` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=2 ) ORDER BY sort desc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND isindex=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0067s ]
+SQL: SELECT p.*,pc.content,pc.imgs FROM ke_product p  left join ke_product_content pc on pc.id = p.id  WHERE p.checked = 1 AND p.delete = 0 AND p.status = 1 AND p.id = '201' LIMIT 1   [ RunTime:0.3487s ]
+SQL: SHOW COLUMNS FROM `ke_product_items` [ RunTime:0.1583s ]
+SQL: SELECT * FROM `ke_product_items` WHERE `gid` = 201 AND `checked` = 1 AND `delete` = 0 AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `ke_product_category` WHERE `id` = 384 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND pid = 384 ) ORDER BY sort desc, id asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 ) ORDER BY sort desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ke_product_content` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `ke_product_content` WHERE `id` = 201 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_product_specs_imgs` [ RunTime:0.1885s ]
+SQL: SELECT * FROM `ke_product_specs_imgs` WHERE ( goods_id=201 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: shouchang E:\www\sc\Application\Home\Controller\ProductController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000426s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-11-28T21:59:12+08:00 ] 127.0.0.1 /Public/Statics/static/images/sidenav_h2icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-11-28T22:31:55+08:00 ] 127.0.0.1 /index.php/Product/info/id/201.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `ke_nav` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=2 ) ORDER BY sort desc, id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND isindex=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0040s ]
+SQL: SELECT p.*,pc.content,pc.imgs FROM ke_product p  left join ke_product_content pc on pc.id = p.id  WHERE p.checked = 1 AND p.delete = 0 AND p.status = 1 AND p.id = '201' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ke_product_items` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ke_product_items` WHERE `gid` = 201 AND `checked` = 1 AND `delete` = 0 AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ke_product_category` WHERE `id` = 384 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND pid = 384 ) ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 ) ORDER BY sort desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ke_product_content` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ke_product_content` WHERE `id` = 201 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_product_specs_imgs` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ke_product_specs_imgs` WHERE ( goods_id=201 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: shouchang E:\www\sc\Application\Home\Controller\ProductController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-11-28T22:32:40+08:00 ] 127.0.0.1 /index.php/Product/info/id/201.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `ke_nav` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=2 ) ORDER BY sort desc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND isindex=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0048s ]
+SQL: SELECT p.*,pc.content,pc.imgs FROM ke_product p  left join ke_product_content pc on pc.id = p.id  WHERE p.checked = 1 AND p.delete = 0 AND p.status = 1 AND p.id = '201' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ke_product_items` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ke_product_items` WHERE `gid` = 201 AND `checked` = 1 AND `delete` = 0 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ke_product_category` WHERE `id` = 384 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND pid = 384 ) ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 ) ORDER BY sort desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ke_product_content` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `ke_product_content` WHERE `id` = 201 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_product_specs_imgs` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ke_product_specs_imgs` WHERE ( goods_id=201 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: shouchang E:\www\sc\Application\Home\Controller\ProductController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001489s ]
+
+[ 2016-11-28T22:32:41+08:00 ] 127.0.0.1 /index.php/Product/info/id/static/images/btn_zoom20.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-11-28T22:32:42+08:00 ] 127.0.0.1 /index.php/Product/info/id/static/images/btn_zoom20.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-11-28T22:32:48+08:00 ] 127.0.0.1 /Public/Statics/static/images/btn_addshopcart_s.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001994s ]
+
+[ 2016-11-28T22:33:52+08:00 ] 127.0.0.1 /index.php/Product/info/id/201.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `ke_nav` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=2 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND isindex=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0039s ]
+SQL: SELECT p.*,pc.content,pc.imgs FROM ke_product p  left join ke_product_content pc on pc.id = p.id  WHERE p.checked = 1 AND p.delete = 0 AND p.status = 1 AND p.id = '201' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ke_product_items` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ke_product_items` WHERE `gid` = 201 AND `checked` = 1 AND `delete` = 0 AND `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `ke_product_category` WHERE `id` = 384 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND pid = 384 ) ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 ) ORDER BY sort desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ke_product_content` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ke_product_content` WHERE `id` = 201 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_product_specs_imgs` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ke_product_specs_imgs` WHERE ( goods_id=201 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: shouchang E:\www\sc\Application\Home\Controller\ProductController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-11-28T22:33:52+08:00 ] 127.0.0.1 /Public/Statics/static/images/btn_zoom20.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-11-28T23:42:01+08:00 ] 127.0.0.1 /index.php/Product/info/id/201.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `ke_nav` [ RunTime:0.0505s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=2 ) ORDER BY sort desc, id asc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND isindex=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0042s ]
+SQL: SELECT p.*,pc.content,pc.imgs FROM ke_product p  left join ke_product_content pc on pc.id = p.id  WHERE p.checked = 1 AND p.delete = 0 AND p.status = 1 AND p.id = '201' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ke_product_items` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ke_product_items` WHERE `gid` = 201 AND `checked` = 1 AND `delete` = 0 AND `status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ke_product_category` WHERE `id` = 384 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND pid = 384 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 ) ORDER BY sort desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ke_product_content` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ke_product_content` WHERE `id` = 201 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_product_specs_imgs` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ke_product_specs_imgs` WHERE ( goods_id=201 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: shouchang E:\www\sc\Application\Home\Controller\ProductController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015031s ]
+
+[ 2016-11-28T23:42:01+08:00 ] 127.0.0.1 /Public/Statics/static/images/sidenav_h2icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-11-28T23:42:01+08:00 ] 127.0.0.1 /Public/Statics/static/images/sidenav_list_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-11-28T23:42:07+08:00 ] 127.0.0.1 /Public/Statics/static/images/btn_addshopcart_s.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+
+[ 2016-11-28T23:43:08+08:00 ] 127.0.0.1 /index.php/Product/info/id/201.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `ke_nav` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=2 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND isindex=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0085s ]
+SQL: SELECT p.*,pc.content,pc.imgs FROM ke_product p  left join ke_product_content pc on pc.id = p.id  WHERE p.checked = 1 AND p.delete = 0 AND p.status = 1 AND p.id = '201' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ke_product_items` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ke_product_items` WHERE `gid` = 201 AND `checked` = 1 AND `delete` = 0 AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ke_product_category` WHERE `id` = 384 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND pid = 384 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 ) ORDER BY sort desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ke_product_content` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ke_product_content` WHERE `id` = 201 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_product_specs_imgs` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ke_product_specs_imgs` WHERE ( goods_id=201 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: shouchang E:\www\sc\Application\Home\Controller\ProductController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-11-28T23:43:08+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-11-28T23:43:24+08:00 ] 127.0.0.1 /index.php/Product/info/id/201.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `ke_nav` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=2 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ke_nav` WHERE ( status=1 AND type=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND isindex=1 ) ORDER BY sort desc, id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `ke_product` [ RunTime:0.0038s ]
+SQL: SELECT p.*,pc.content,pc.imgs FROM ke_product p  left join ke_product_content pc on pc.id = p.id  WHERE p.checked = 1 AND p.delete = 0 AND p.status = 1 AND p.id = '201' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ke_product_items` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `ke_product_items` WHERE `gid` = 201 AND `checked` = 1 AND `delete` = 0 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ke_product_category` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ke_product_category` WHERE `id` = 384 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 AND pid = 384 ) ORDER BY sort desc, id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ke_product_category` WHERE ( status=1 ) ORDER BY sort desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+NOTIC: [8] Undefined variable: arr E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 68 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\www\sc\Application\Home\Model\ProductCategoryModel.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ke_product_content` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ke_product_content` WHERE `id` = 201 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ke_product_specs_imgs` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ke_product_specs_imgs` WHERE ( goods_id=201 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: shouchang E:\www\sc\Application\Home\Controller\ProductController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+

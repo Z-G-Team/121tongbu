@@ -1,0 +1,699 @@
+[ 2017-10-10T00:18:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2017-10-10T00:18:37+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T00:18:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001632s ]
+
+[ 2017-10-10T00:18:40+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T00:19:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2017-10-10T00:19:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2017-10-10T00:20:02+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002805s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T00:20:09+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T00:20:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001695s ]
+
+[ 2017-10-10T00:21:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2017-10-10T00:21:46+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T00:22:56+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-10-10T00:38:34+08:00 ] 127.0.0.1 /Index/addBook?username1=asdf&sex1=0&phone1=efa&email1=asdf&occupation1=asdf&quota1=asdf&province1=%E6%B2%B3%E5%8D%97%E7%9C%81&city1=%E5%8D%97%E9%98%B3%E5%B8%82&district1=%E7%A4%BE%E6%97%97%E5%8E%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0434s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('asdf','0','efa','asdf','asdf','0','河南省 南阳市 社旗县','2017-10-10 00:38:33') [ RunTime:0.0518s ]
+
+[ 2017-10-10T00:40:56+08:00 ] 127.0.0.1 /Index/addMessage?messageContent=dfgsdfg&messageUserName=sdfg&messagePhone=rgsdfg&messageArea=sdfgsdfg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `ke_message` [ RunTime:0.0063s ]
+SQL: INSERT INTO `ke_message` (`name`,`phone`,`brief`,`region`,`add_time`) VALUES ('sdfg','rgsdfg','dfgsdfg','sdfgsdfg','2017-10-10 00:40:55') [ RunTime:0.0592s ]
+
+[ 2017-10-10T00:42:14+08:00 ] 127.0.0.1 /Index/addBook?username1=asd&sex1=1&phone1=wda&email1=asdas&occupation1=asdasd&quota1=dasd&province1=%E5%B1%B1%E4%B8%9C%E7%9C%81&city1=%E5%BE%B7%E5%B7%9E%E5%B8%82&district1=%E5%AE%81%E6%B4%A5%E5%8E%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0057s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('asd','1','wda','asdas','asdasd','0','山东省 德州市 宁津县','2017-10-10 00:42:13') [ RunTime:0.0658s ]
+
+[ 2017-10-10T00:43:17+08:00 ] 127.0.0.1 /Index/addBook?username1=asdf&sex1=0&phone1=asdf&email1=asdf&occupation1=adsf&quota1=asdf&province1=%E5%B1%B1%E4%B8%9C%E7%9C%81&city1=%E4%B8%B4%E6%B2%82%E5%B8%82&district1=%E8%8E%92%E5%8D%97%E5%8E%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0053s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('asdf','0','asdf','asdf','adsf','0','山东省 临沂市 莒南县','2017-10-10 00:43:16') [ RunTime:0.0640s ]
+
+[ 2017-10-10T00:44:09+08:00 ] 127.0.0.1 /Index/addBook?username1=asdf&sex1=0&phone1=efa&email1=asdf&occupation1=fasdf&quota1=asdf&province1=%E6%B1%9F%E8%A5%BF%E7%9C%81&city1=%E6%99%AF%E5%BE%B7%E9%95%87%E5%B8%82&district1=%E7%8F%A0%E5%B1%B1%E5%8C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0051s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('asdf','0','efa','asdf','fasdf','0','江西省 景德镇市 珠山区','2017-10-10 00:44:08') [ RunTime:0.0922s ]
+
+[ 2017-10-10T00:45:14+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+
+[ 2017-10-10T00:45:43+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+
+[ 2017-10-10T00:46:47+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003368s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0058s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('asdf','0','asdf','asdf','asdf','0','江西省 景德镇市 珠山区','2017-10-10 00:46:46') [ RunTime:0.0659s ]
+
+[ 2017-10-10T00:47:47+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0058s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('sdfgs','0','dfg','sdfg','fgsfdg','0','山东省 临沂市 兰陵县','2017-10-10 00:47:46') [ RunTime:0.0678s ]
+
+[ 2017-10-10T00:48:19+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+
+[ 2017-10-10T00:48:22+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+
+[ 2017-10-10T00:48:24+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+
+[ 2017-10-10T00:48:27+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+
+[ 2017-10-10T00:48:28+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+
+[ 2017-10-10T00:48:32+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0046s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('asdf','1','asdfadsf','asdfads','asdfadsf','0','  ','2017-10-10 00:48:30') [ RunTime:0.0408s ]
+
+[ 2017-10-10T00:49:17+08:00 ] 127.0.0.1 /Index/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `ke_message` [ RunTime:0.0053s ]
+SQL: INSERT INTO `ke_message` (`name`,`phone`,`brief`,`region`,`add_time`) VALUES ('asdf','asdf','asdfasdf','asdf','2017-10-10 00:49:16') [ RunTime:0.0319s ]
+
+[ 2017-10-10T00:50:31+08:00 ] 127.0.0.1 /Index/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `ke_message` [ RunTime:0.0051s ]
+SQL: INSERT INTO `ke_message` (`name`,`phone`,`brief`,`region`,`add_time`) VALUES ('efasd','fasdf','asdfasdf','asdfadsf','2017-10-10 00:50:30') [ RunTime:0.0414s ]
+
+[ 2017-10-10T00:52:20+08:00 ] 127.0.0.1 /Index/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `ke_message` [ RunTime:0.0055s ]
+SQL: INSERT INTO `ke_message` (`name`,`phone`,`brief`,`region`,`add_time`) VALUES ('asdf','asdf','asdfasdf','asdfadsf','2017-10-10 00:52:19') [ RunTime:0.0920s ]
+
+[ 2017-10-10T00:55:06+08:00 ] 127.0.0.1 /Index/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `ke_message` [ RunTime:0.0050s ]
+SQL: INSERT INTO `ke_message` (`name`,`phone`,`brief`,`region`,`add_time`) VALUES ('asdf','asdf','asdfadsf','asdfa','2017-10-10 00:55:05') [ RunTime:0.0370s ]
+
+[ 2017-10-10T00:55:18+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+
+[ 2017-10-10T00:56:52+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0053s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('asdf','0','asdf','asdf','asdf','0','山东省 临沂市 兰陵县','2017-10-10 00:56:51') [ RunTime:0.0685s ]
+
+[ 2017-10-10T00:57:06+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0044s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('asdf','0','asdf','asdf','asdf','0','福建省 莆田市 涵江区','2017-10-10 00:57:05') [ RunTime:0.0759s ]
+
+[ 2017-10-10T00:58:07+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0055s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('1111','1','111','1111','1111','111','福建省 厦门市 海沧区','2017-10-10 00:58:06') [ RunTime:0.0637s ]
+
+[ 2017-10-10T00:59:45+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0053s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('222','0','22','222','2222','2222','河北省 唐山市 古冶区','2017-10-10 00:59:44') [ RunTime:0.0585s ]
+
+[ 2017-10-10T01:04:17+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0055s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('444','0','44','444','4444','444','江西省 景德镇市 浮梁县','2017-10-10 01:04:16') [ RunTime:0.0629s ]
+
+[ 2017-10-10T01:04:40+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0057s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('sdf','0','sdfs','sdf','dfsd','0','福建省 莆田市 荔城区','2017-10-10 01:04:39') [ RunTime:0.0660s ]
+
+[ 2017-10-10T01:05:23+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0053s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('asdfa','0','sdfa','asdf','asdfadsf','0','安徽省 阜阳市 颍泉区','2017-10-10 01:05:22') [ RunTime:0.0441s ]
+
+[ 2017-10-10T01:06:12+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0046s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('asdasdf','0','asdf','asdf','asdf','0','福建省 厦门市 湖里区','2017-10-10 01:06:11') [ RunTime:0.0986s ]
+
+[ 2017-10-10T01:07:17+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0056s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('asdf','0','asdf','asdf','asdf','0','安徽省 六安市 裕安区','2017-10-10 01:07:15') [ RunTime:0.0573s ]
+
+[ 2017-10-10T01:13:20+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0052s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('111','1','111','11111','1111','11111','山东省 德州市 宁津县','2017-10-10 01:13:19') [ RunTime:0.0521s ]
+
+[ 2017-10-10T01:13:25+08:00 ] 127.0.0.1 /Index/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `ke_message` [ RunTime:0.0055s ]
+SQL: INSERT INTO `ke_message` (`name`,`phone`,`brief`,`region`,`add_time`) VALUES ('asdasd','asdas','sdsdasd','asdasd','2017-10-10 01:13:24') [ RunTime:0.0464s ]
+
+[ 2017-10-10T01:13:35+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002461s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0056s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('2222','0','22','2222','222','2222','安徽省 黄山市 徽州区','2017-10-10 01:13:34') [ RunTime:0.0564s ]
+
+[ 2017-10-10T01:13:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2017-10-10T01:14:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002730s ]
+
+[ 2017-10-10T01:14:30+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002427s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T01:14:34+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T01:14:34+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T01:14:35+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T01:14:46+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012772s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T01:15:05+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T01:15:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2017-10-10T01:15:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2017-10-10T01:15:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2017-10-10T01:15:20+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T01:15:38+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T01:20:41+08:00 ] 127.0.0.1 /pages/dest/images/service.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-10-10T01:20:41+08:00 ] 127.0.0.1 /pages/dest/images/service2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-10-10T01:20:41+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T01:21:31+08:00 ] 127.0.0.1 /pages/dest/images/service.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+
+[ 2017-10-10T01:21:31+08:00 ] 127.0.0.1 /pages/dest/images/service2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-10-10T01:21:31+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T01:21:32+08:00 ] 127.0.0.1 /pages/lib/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020600s ]
+ERR: 无法加载控制器:Pages
+
+[ 2017-10-10T01:22:07+08:00 ] 127.0.0.1 /pages/dest/images/service.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+
+[ 2017-10-10T01:22:07+08:00 ] 127.0.0.1 /pages/dest/images/service2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+
+[ 2017-10-10T01:22:07+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T01:22:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2017-10-10T01:23:08+08:00 ] 127.0.0.1 /pages/dest/images/service.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+
+[ 2017-10-10T01:23:08+08:00 ] 127.0.0.1 /pages/dest/images/service2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002408s ]
+
+[ 2017-10-10T01:23:45+08:00 ] 127.0.0.1 /dest/images/about-video.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+ERR: 无法加载控制器:Dest
+
+[ 2017-10-10T01:23:45+08:00 ] 127.0.0.1 /pages/dest/images/service2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+
+[ 2017-10-10T01:23:45+08:00 ] 127.0.0.1 /pages/dest/images/service.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+
+[ 2017-10-10T01:25:00+08:00 ] 127.0.0.1 /pages/dest/images/service.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+
+[ 2017-10-10T01:25:00+08:00 ] 127.0.0.1 /pages/dest/images/service2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014525s ]
+
+[ 2017-10-10T01:26:07+08:00 ] 127.0.0.1 /pages/dest/images/service.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.046538s ]
+
+[ 2017-10-10T01:26:07+08:00 ] 127.0.0.1 /pages/dest/images/service2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-10-10T01:26:27+08:00 ] 127.0.0.1 /pages/dest/images/service2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031978s ]
+
+[ 2017-10-10T01:26:27+08:00 ] 127.0.0.1 /pages/dest/images/service.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+
+[ 2017-10-10T01:27:11+08:00 ] 127.0.0.1 /Index/addBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `ke_book` [ RunTime:0.0051s ]
+SQL: INSERT INTO `ke_book` (`name`,`sex`,`phone`,`email`,`position`,`quota`,`region`,`add_time`) VALUES ('asdf','0','dfasdf','asdf','asdf','0','天津市 天津市市辖区 河东区','2017-10-10 01:27:10') [ RunTime:0.0503s ]
+

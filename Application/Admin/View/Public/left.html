@@ -1,0 +1,32 @@
+<!-- BEGIN SIDEBAR -->
+<div class="page-sidebar nav-collapse collapse">
+	<!-- BEGIN SIDEBAR MENU -->        
+	<ul class="page-sidebar-menu">
+		<li>
+			<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+			<div class="sidebar-toggler hidden-phone"></div>
+			<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+		</li>
+
+        <volist name="auth['menu']" id="item">
+            <li <?php if($item['cur']==1){ echo 'class="active"'; }?>>
+                <a href="javascript:;">
+                    <i class="icon-sitemap"></i>
+                    <span class="title">{$item['name']}</span>
+                    <span class="fa arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                    <volist name="item['child']" id="minfo">
+                        <?php if($minfo['show']==1){?>
+                        <li <?php if($minfo['cur']==1){ echo 'class="active"'; }?>>
+                            <a href="<?php echo U($minfo['controller'].'/'.$minfo['action']); ?>"><?php echo $minfo['name']; ?></a>
+                        </li>
+                        <?php }?>
+                    </volist>
+                </ul>
+            </li>
+        </volist>
+	</ul>
+	<!-- END SIDEBAR MENU -->
+</div>
+<!-- END SIDEBAR -->

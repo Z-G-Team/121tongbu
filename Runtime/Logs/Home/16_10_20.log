@@ -1,0 +1,172 @@
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023188536815.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023187675425.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023189266990.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023190503398.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023187153861.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023190936022.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023191119880.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023191443447.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023190651081.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023192344351.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023191371969.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023192909674.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-10-20T14:05:47+08:00 ] 121.204.97.184 /Data/product/desc/20160801/1470023193367538.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-10-20T16:03:35+08:00 ] 218.106.151.194 /Api/Wen/info?callback=jQuery18107444760213155044_1476950614898&api_key=tfzc&uid=21&hid=7&id=11&_=1476950615013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+ERR: 无法加载控制器:Api
+
+[ 2016-10-20T16:03:36+08:00 ] 218.106.151.194 /Api/Wen/info?callback=jQuery181047531254490269137_1476950616147&api_key=tfzc&uid=21&hid=7&id=11&_=1476950616256
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载控制器:Api
+
+[ 2016-10-20T16:04:40+08:00 ] 218.106.151.194 /Api/Wen/info?callback=jQuery18107994263588728094_1476950680417&api_key=tfzc&uid=21&hid=7&id=11&_=1476950680585
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载控制器:Api
+
+[ 2016-10-20T16:05:21+08:00 ] 218.106.151.194 /Api/Wen/info?callback=jQuery18105732995160929286_1476950721369&api_key=tfzc&uid=21&hid=7&id=11&_=1476950721615
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+ERR: 无法加载控制器:Api
+
+[ 2016-10-20T16:06:49+08:00 ] 218.106.151.194 /Api/Wen/info?callback=jQuery18107848398767492033_1476950809735&api_key=tfzc&uid=21&hid=7&id=11&_=1476950809849
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+ERR: 无法加载控制器:Api
+
+[ 2016-10-20T16:07:02+08:00 ] 117.25.74.167 /Api/Wen/info?callback=jQuery18105732995160929286_1476950721369&api_key=tfzc&uid=21&hid=7&id=11&_=1476950721615
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载控制器:Api
+
+[ 2016-10-20T16:08:14+08:00 ] 218.66.62.146 /Api/Wen/info?callback=jQuery18105732995160929286_1476950721369&api_key=tfzc&uid=21&hid=7&id=11&_=1476950721615
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+ERR: 无法加载控制器:Api
+
+[ 2016-10-20T19:05:43+08:00 ] 203.208.60.179 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2016-10-20T19:05:43+08:00 ] 203.208.60.179 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020213s ]
+
+[ 2016-10-20T22:43:47+08:00 ] 27.156.34.171 /Api/House/lists?callback=jQuery111008088722535651867_1476974624459&api_key=tfzc&page=1&sta=0&pageSize=3&_=1476974624460
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载控制器:Api
+
+[ 2016-10-20T22:43:47+08:00 ] 27.156.34.171 /Api/Article/lists?callback=jQuery111008088722535651867_1476974624461&api_key=tfzc&page=1&pageSize=3&type=1&_=1476974624462
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+ERR: 无法加载控制器:Api
+
