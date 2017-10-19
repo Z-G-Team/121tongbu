@@ -13,8 +13,7 @@ var scsssource = ["./sass/*.scss", "./sass/!_*.scss"],
   scssdest = "./css",
   csssource = ["./css/*.css"],
   cssdest = "./dest/css",
-  jssource = ["js/*.js","!js/new.js"],
-  newjs = ["js/new.js"],
+  jssource = ["js/*.js"],
   jsdest = "./dest/js",
   imgsource = ["./images/**/*"],
   imgdest = "./dest/images",
@@ -77,9 +76,7 @@ gulp.task("minifyCss", function() {
     })
     .pipe(browserSync.stream());
 });
-gulp.task("newjs", function() {
-  return gulp.src(newjs).pipe(gulp.dest(jsdest));
-});
+
 //压缩，合并 js
 gulp.task("minifyjs", function() {
   return (gulp
@@ -145,5 +142,5 @@ gulp.task("watch", function() {
 
 // default
 gulp.task("build", ["minifyCss", "minifyjs", "sass", "htmlmin"], function() {
-  gulp.start("watch", "copyImages", "htmlmin",'newjs');
+  gulp.start("watch", "copyImages", "htmlmin");
 });

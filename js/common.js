@@ -106,7 +106,6 @@ function learnCarousel() {
     failurelimit: 54
   });
   learnCarousel();
-  //预约表单
   $('.onSub').click(function () {
     var validate = {
       userName: {
@@ -160,23 +159,6 @@ function learnCarousel() {
       }
     });
   });
-  //注册表单
-  $('#submit1').click(function(){
-    layer.load(1);
-    $.ajax({
-        url : '/Index/join',
-        data : $('#regForm').serialize(),
-        dataType : 'json',
-        type : 'post',
-        success : function(ret){
-            layer.closeAll('loading');
-            layer.msg(ret.info);
-            if(ret.status==1){
-                $('#regForm').find('input').val('');
-            }
-        }
-    });
-});
   function generatHtml() {
     var html = '<ul class="fixed-right">\
                 <li class="item">\
