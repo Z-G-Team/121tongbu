@@ -309,13 +309,25 @@
     <div id="reservation" class="reservation container">
         <div class="wrapper clearfix">
             <div class="reservation_title">立即注册</div>
-            <ul class="r_main">
-                <li><input id="username1" class="text" type="text" placeholder="请填写姓名" value=""></li>
-                <li><input id="phone1" class="text" type="text" placeholder="请填写手机号码" value=""></li>
-                <li><input id="area1" class="text" type="text" placeholder="请填写所在地区" value=""></li>
-                <li><input id="class1" class="text" type="text" placeholder="请填写年级" value=""></li>
-                <li><input id="subject1" class="text" type="text" placeholder="请填写科目" value=""></li>
-            </ul>
+            <form method="post" action="" id="regForm">
+                <ul class="r_main">
+                    <li>
+                        <input id="username1" name="name" class="text" type="text" placeholder="请填写姓名" value="">
+                    </li>
+                    <li>
+                        <input id="phone1" name="phone" class="text" type="text" placeholder="请填写手机号码" value="">
+                    </li>
+                    <li>
+                        <input id="area1" name="region" class="text" type="text" placeholder="请填写所在地区" value="">
+                    </li>
+                    <li>
+                        <input id="class1" name="classes" class="text" type="text" placeholder="请填写年级" value="">
+                    </li>
+                    <li>
+                        <input id="subject1" name="subjects" class="text" type="text" placeholder="请填写科目" value="">
+                    </li>
+                </ul>
+                </form>
             <div class="reservation_btn">
                 <button id="submit1">等你一起加入！</button>
             </div>
@@ -334,9 +346,9 @@
             <div class="foot_nav">
                 <dl>
                     <dt><a>关于我们</a></dt>
-                    <dd><a href="AboutUs.html">公司简介</a></dd>
-                    <dd><a href="AboutUs.html">联系我们</a></dd>
-                    <dd><a href="AboutUs.html">加入我们</a></dd>
+                    <dd><a href="/pages/AboutUs.html">公司简介</a></dd>
+                    <dd><a href="/pages/AboutUs.html">联系我们</a></dd>
+                    <dd><a href="/pages/AboutUs.html">加入我们</a></dd>
                 </dl>
                 <dl>
                     <dt><a>学习咨询</a></dt>

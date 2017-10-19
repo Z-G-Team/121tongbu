@@ -275,13 +275,25 @@
     <div id="reservation" class="reservation container">
         <div class="wrapper clearfix">
             <div class="reservation_title">立即注册</div>
-            <ul class="r_main">
-                <li><input id="username1" class="text" type="text" placeholder="请填写姓名" value=""></li>
-                <li><input id="phone1" class="text" type="text" placeholder="请填写手机号码" value=""></li>
-                <li><input id="area1" class="text" type="text" placeholder="请填写所在地区" value=""></li>
-                <li><input id="class1" class="text" type="text" placeholder="请填写年级" value=""></li>
-                <li><input id="subject1" class="text" type="text" placeholder="请填写科目" value=""></li>
-            </ul>
+            <form method="post" action="" id="regForm">
+                <ul class="r_main">
+                    <li>
+                        <input id="username1" name="name" class="text" type="text" placeholder="请填写姓名" value="">
+                    </li>
+                    <li>
+                        <input id="phone1" name="phone" class="text" type="text" placeholder="请填写手机号码" value="">
+                    </li>
+                    <li>
+                        <input id="area1" name="region" class="text" type="text" placeholder="请填写所在地区" value="">
+                    </li>
+                    <li>
+                        <input id="class1" name="classes" class="text" type="text" placeholder="请填写年级" value="">
+                    </li>
+                    <li>
+                        <input id="subject1" name="subjects" class="text" type="text" placeholder="请填写科目" value="">
+                    </li>
+                </ul>
+                </form>
             <div class="reservation_btn">
                 <button id="submit1">等你一起加入！</button>
             </div>
@@ -300,9 +312,9 @@
             <div class="foot_nav">
                 <dl>
                     <dt><a>关于我们</a></dt>
-                    <dd><a href="AboutUs.html">公司简介</a></dd>
-                    <dd><a href="AboutUs.html">联系我们</a></dd>
-                    <dd><a href="AboutUs.html">加入我们</a></dd>
+                    <dd><a href="/pages/AboutUs.html">公司简介</a></dd>
+                    <dd><a href="/pages/AboutUs.html">联系我们</a></dd>
+                    <dd><a href="/pages/AboutUs.html">加入我们</a></dd>
                 </dl>
                 <dl>
                     <dt><a>学习咨询</a></dt>
@@ -332,6 +344,103 @@
         </div>
     </div>
     <!-- 页面底部 end -->
+    <div style="height:0px;overflow:hidden">
+        <div class="service-big-box">
+            <div class="service-big-box-t tc">
+                <h2>
+                    在线预约
+                </h2>
+                <!-- <i class="service-ui icon-close-big"></i> -->
+            </div>
+            <div class="service-big-box-m">
+                <form action="/" class="join-us-form" method="POST" id="onForm">
+                    <div class="form-item">
+                        <div class="form-item-label">
+                            您的姓名：
+                        </div>
+                        <div class="form-item-control">
+                            <input type="text" name="username1" class="form-item-input yyUserName" placeholder="必填">
+                        </div>
+                    </div>
+                    <div class="form-item ml5">
+                        <div class="form-item-label">
+                            您的性别：
+                        </div>
+                        <div class="form-item-control border-none form-item-radio">
+                            <label for="sexsmall01">
+                                <input type="radio" value="0" name="sex1" id="sexsmall01" checked>
+                                <i class="checked"></i>
+                                男
+                            </label>
+                            <label for="sexsmall02" class="pl15">
+                                <input type="radio" value="1" name="sex1" id="sexsmall02">
+                                <i class="checked"></i>
+                                女
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="form-item-label">
+                            手机号码：
+                        </div>
+                        <div class="form-item-control">
+                            <input type="text" name="phone1" class="form-item-input yyPhone" placeholder="必填">
+                        </div>
+                    </div>
+                    <div class="form-item ml5">
+                        <div class="form-item-label">
+                            常用邮箱：
+                        </div>
+                        <div class="form-item-control">
+                            <input type="text" name="email1" class="form-item-input yyEmail" placeholder="必填">
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="form-item-label">
+                            目前职业：
+                        </div>
+                        <div class="form-item-control">
+                            <input type="text" name="occupation1" class="form-item-input yyOccupation" placeholder="必填">
+                        </div>
+                    </div>
+                    <div class="form-item ml5">
+                        <div class="form-item-label">
+                            投资额度：
+                        </div>
+                        <div class="form-item-control">
+                            <input type="text" name="quota1" class="form-item-input" placeholder="选填">
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="form-item-label">
+                            所在区域：
+                        </div>
+                        <div class="form-item-select inline-block" id="distpicker1">
+                            <div class="form-group">
+                                <label class="sr-only" for="province02">省</label>
+                                <select class="form-item-control ellipsis yyProvince" name="province1" id="province02"></select>
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="city02">市</label>
+                                <select class="form-item-control ellipsis yyCity" name="city1" id="city02"></select>
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="district02">区</label>
+                                <select class="form-item-control ellipsis yyDistrict" name="district1" id="district02"></select>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <a href="javascript:;" class="btn-apply onSub">
+                    立即申请预约
+                </a>
+            </div>
+            <div class="service-big-box-b tc">
+                <div class="service-pic"></div>
+                <img src="./dest/images/service-phone.png" class="mt35" alt="" width="306">
+            </div>
+        </div>
+    </div>
     <!-- js -->
     <script type="text/javascript" src="/lib/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="/lib/swiper.min.js"></script>
